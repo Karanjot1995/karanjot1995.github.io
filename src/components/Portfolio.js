@@ -72,7 +72,7 @@ function Portfolio() {
 
   return (
     <div className="App">
-      <a  class="menu_icon" ref={btnRef} onClick={()=>settoggleMenu(!toggleMenu)}><FiMenu size="30px" fill="#fff"/></a>
+      <a  className="menu_icon" ref={btnRef} onClick={()=>settoggleMenu(!toggleMenu)}><FiMenu size="30px" fill="#fff"/></a>
         <div id="menu" ref={menuRef} className={`pt-5 ${toggleMenu?"d-block":"d-none"}`}>
           <ul className="pt-3">
             <li><a href="#intro">Introduction</a></li>
@@ -110,7 +110,7 @@ function Portfolio() {
         </div>
         
         <div className="section skills light text-center" ref={myRef} id="skills">
-          <div class="container-fluid text-center">
+          <div className="container-fluid text-center">
             <h2 className="heading text-uppercase"><b>Projects and Skills</b></h2>
             <div className="d-flex justify-content-center text-uppercase skill-set">
                 <p className="skill-bubble">HTML</p>
@@ -133,7 +133,7 @@ function Portfolio() {
           <div className="slider-container m-md-5">
             <h3 className="sub-heading">Personal Projects</h3>
             <Slider {...settings}>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://groomers.co.in/" target="_blank">
                   <img src={require('../images/groomers/groomers-1.png').default}/>
                 </a>
@@ -144,7 +144,7 @@ function Portfolio() {
                 <p>E-commerce website for Indian business purposes</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Social" target="_blank">
                   <img src={require('../images/social/social-1.png').default}/>
                 </a>
@@ -155,7 +155,7 @@ function Portfolio() {
                 <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
                 <p>Tech Stack: Express, Nodejs, MongoDB</p>
               </div> 
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/SEO_tool" target="_blank">
                   <img src={require('../images/seo-1.png').default}/>
                 </a>
@@ -165,7 +165,7 @@ function Portfolio() {
                 <h3>SEO Automation Tool</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
                   <img src={require('../images/wmt/wmt-1.png').default}/>
                 </a>
@@ -175,7 +175,7 @@ function Portfolio() {
                 <h3>Workplace Management Tool</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
-              {/* <div class="text-center">
+              {/* <div className="text-center">
                 <a href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
                 <h3>TO do list</h3>
                 <p></p>
@@ -187,30 +187,30 @@ function Portfolio() {
           <div className="m-md-5 pd-t-5 slider-container">
             <h3 className="sub-heading">Work Projects</h3>
             <Slider {...settings}>
-              <div class="text-center">
+              <div className="text-center">
                 <a href="https://collegedunia.com/" className="expanded" target="_blank"><img src={require('../images/collegedunia.png').default}/></a>
                 <h3>collegedunia.com (Collegedunia web Pvt. Ltd.)</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
                 <p></p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a href="https://www.discernliving.com/" className="expanded" target="_blank"><img src={require('../images/discernliving.png').default}/></a>
                 <h3>discernliving.com (Hogarth India)</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs (Full Stack)</p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
                   <img src={require('../images/wmt/wmt-1.png').default}/>
                 </a>
                 <h3>Workplace Management Tool</h3>
                 <p>Tech Stack: MongoDb, Reactjs, Express, Nodejs (Full Stack)</p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a href="https://www.corporategurukul.com/" className="expanded" target="_blank"><img src={require('../images/cg.png').default}/></a>
                 <h3>Corporate Gurukul (Hogarth India)</h3>
                 <p>Tech Stack: HTML, CSS, JQuery (Frontend)</p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a href="https://lentra.ai/" className="expanded" target="_blank"><img src={require('../images/lentra.png').default}/></a>
                 <h3>Lentra.ai (Hogarth India)</h3>
                 <p>Tech Stack: HTML, CSS, Javascript (Frontend)</p>
@@ -223,37 +223,37 @@ function Portfolio() {
           <div className="m-md-5 pd-t-5 slider-container">
             <h3 className="sub-heading">Static Designs</h3>
             <Slider {...settings}>
-            <div class="text-center">
+            <div className="text-center">
                   <a className="expanded" href="https://karanjot1995.github.io/chatbot.html" target="_blank"><img  src={require('../images/images/chatbot.png').default}/></a>
                   <h3>chatbot</h3>
                   <p></p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://karanjot1995.github.io/resume.html" target="_blank"><img src={require('../images/images/design_1.png').default}/></a>
                 <h3>Resume-design</h3>
                 <p></p>
               </div> 
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://karanjot1995.github.io/terracotta.html" target="_blank"><img src={require('../images/images/design_2.png').default}/></a>
                 <h3>Terracotta</h3>
                 <p></p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://karanjot1995.github.io/facebook.html" target="_blank"><img src={require('../images/images/design_3.png').default}/></a>
                 <h3>Facebook-design</h3>
                 <p></p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://karanjot1995.github.io/golden.html" target="_blank"><img src={require('../images/images/design_4.png').default}/></a>
                 <h3>Golden-design</h3>
                 <p></p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://karanjot1995.github.io/focus.html" target="_blank"><img src={require('../images/images/design_5.png').default}/></a>
                 <h3>Focus-design</h3>
                 <p></p>
               </div>
-              <div class="text-center">
+              <div className="text-center">
                 <a className="expanded" href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
                 <h3>Elle_reve-design</h3>
                 <p></p>
@@ -262,14 +262,14 @@ function Portfolio() {
           </div>
 
 
-          {/* <div class="typing-container">
-    <span id="sentence" class="sentence"></span>
-    <span class="input-cursor"></span>
+          {/* <div className="typing-container">
+    <span id="sentence" className="sentence"></span>
+    <span className="input-cursor"></span>
   </div> */}
         
         </div>
 
-        <div class="section work-ex dark" id="work-ex">
+        <div className="section work-ex dark" id="work-ex">
           <h2 className="heading text-center text-uppercase"><b>Work Experience</b></h2>
 
           <div className="company m-auto pb-4">
@@ -302,7 +302,7 @@ function Portfolio() {
 
         </div>
         
-        <div class="section education light" id="education">
+        <div className="section education light" id="education">
           <h2 className="heading text-uppercase text-center"><b>Education</b></h2>
           <div className="company d-flex flex-column align-items-center text-left">
             <p>I graduated with a Bachelors in Technology degree in <b>Electronics and Communication Engineering</b> 
@@ -313,7 +313,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div class="section get-in-touch dark text-center" id="get-in-touch">
+        <div className="section get-in-touch dark text-center" id="get-in-touch">
           <h3>Wanna get in touch or talk about a project?</h3>
           <p>
           Feel free to contact me via email at <br/>
