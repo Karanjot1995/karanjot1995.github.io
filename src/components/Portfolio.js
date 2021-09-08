@@ -224,37 +224,37 @@ function Portfolio() {
             <h3 className="sub-heading">Static Designs</h3>
             <Slider {...settings}>
             <div class="text-center">
-                  <a href="https://karanjot1995.github.io/chatbot.html" target="_blank"><img  src={require('../images/images/chatbot.png').default}/></a>
+                  <a className="expanded" href="https://karanjot1995.github.io/chatbot.html" target="_blank"><img  src={require('../images/images/chatbot.png').default}/></a>
                   <h3>chatbot</h3>
                   <p></p>
               </div>
               <div class="text-center">
-                <a href="https://karanjot1995.github.io/resume.html" target="_blank"><img src={require('../images/images/design_1.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/resume.html" target="_blank"><img src={require('../images/images/design_1.png').default}/></a>
                 <h3>Resume-design</h3>
                 <p></p>
               </div> 
               <div class="text-center">
-                <a href="https://karanjot1995.github.io/terracotta.html" target="_blank"><img src={require('../images/images/design_2.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/terracotta.html" target="_blank"><img src={require('../images/images/design_2.png').default}/></a>
                 <h3>Terracotta</h3>
                 <p></p>
               </div>
               <div class="text-center">
-                <a href="https://karanjot1995.github.io/facebook.html" target="_blank"><img src={require('../images/images/design_3.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/facebook.html" target="_blank"><img src={require('../images/images/design_3.png').default}/></a>
                 <h3>Facebook-design</h3>
                 <p></p>
               </div>
               <div class="text-center">
-                <a href="https://karanjot1995.github.io/golden.html" target="_blank"><img src={require('../images/images/design_4.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/golden.html" target="_blank"><img src={require('../images/images/design_4.png').default}/></a>
                 <h3>Golden-design</h3>
                 <p></p>
               </div>
               <div class="text-center">
-                <a href="https://karanjot1995.github.io/focus.html" target="_blank"><img src={require('../images/images/design_5.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/focus.html" target="_blank"><img src={require('../images/images/design_5.png').default}/></a>
                 <h3>Focus-design</h3>
                 <p></p>
               </div>
               <div class="text-center">
-                <a href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
                 <h3>Elle_reve-design</h3>
                 <p></p>
               </div>
