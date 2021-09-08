@@ -19,6 +19,11 @@ function Portfolio() {
     function handleResize() {
       setWindowWidth(window.innerWidth);
     }
+    window.addEventListener('click', function(e){
+      if (!btnRef.current.contains(e.target)){
+        settoggleMenu(false)
+      } 
+    })
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -26,11 +31,11 @@ function Portfolio() {
   function changeExpanded(e){
     let expanded = ReactDOM.findDOMNode(e.currentTarget).parentNode.firstChild.firstChild
     console.log(expanded.src = e.target.src)
-
   }
 
   const myRef = useRef(null)
   const menuRef = useRef()
+  const btnRef = useRef()
 
   function scrollDown (){
     myRef.current.scrollIntoView() 
@@ -57,7 +62,9 @@ function Portfolio() {
       slidesToShow: 1,
       speed: 500,
       rows: 1,
-      slidesPerRow: 1
+      slidesPerRow: 1,
+      dots:true,
+      arrows:false
     }
     
   }
@@ -65,7 +72,7 @@ function Portfolio() {
 
   return (
     <div className="App">
-      <a  class="menu_icon" onClick={()=>settoggleMenu(!toggleMenu)}><FiMenu size="30px" fill="#fff"/></a>
+      <a  class="menu_icon" ref={btnRef} onClick={()=>settoggleMenu(!toggleMenu)}><FiMenu size="30px" fill="#fff"/></a>
         <div id="menu" ref={menuRef} className={`pt-5 ${toggleMenu?"d-block":"d-none"}`}>
           <ul className="pt-3">
             <li><a href="#intro">Introduction</a></li>
@@ -104,7 +111,7 @@ function Portfolio() {
         
         <div className="section skills light text-center" ref={myRef} id="skills">
           <div class="container-fluid text-center">
-            <h2 className="heading"><b>Projects and Skills</b></h2>
+            <h2 className="heading text-uppercase"><b>Projects and Skills</b></h2>
             <div className="d-flex justify-content-center text-uppercase skill-set">
                 <p className="skill-bubble">HTML</p>
                 <p className="skill-bubble">CSS</p>
@@ -135,6 +142,7 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-3.png').default}/></a>
                 <h3>groomers.co.in</h3>
                 <p>E-commerce website for Indian business purposes</p>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
               <div class="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Social" target="_blank">
@@ -145,6 +153,7 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png').default}/></a>
                 <h3>Social Web (Facebook functionalities)</h3>
                 <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
+                <p>Tech Stack: Express, Nodejs, MongoDB</p>
               </div> 
               <div class="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/SEO_tool" target="_blank">
@@ -154,7 +163,7 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-3.png').default}/></a>
                 <h3>SEO Automation Tool</h3>
-                <p></p>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
               <div class="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
@@ -164,7 +173,7 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-3.png').default}/></a>
                 <h3>Workplace Management Tool</h3>
-                <p></p>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
               {/* <div class="text-center">
                 <a href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
@@ -175,7 +184,7 @@ function Portfolio() {
           </div>
 
 
-          <div className="m-5">
+          <div className="m-5 pd-t-5">
             <h3 className="sub-heading">Work Projects</h3>
             <Slider {...settings}>
               <div class="text-center">
@@ -211,7 +220,7 @@ function Portfolio() {
         
 
 
-          <div className="m-5">
+          <div className="m-5 pd-t-5">
             <h3 className="sub-heading">Static Designs</h3>
             <Slider {...settings}>
             <div class="text-center">
@@ -261,9 +270,9 @@ function Portfolio() {
         </div>
 
         <div class="section work-ex dark" id="work-ex">
-          <h2 className="heading text-center"><b>Work Experience</b></h2>
+          <h2 className="heading text-center text-uppercase"><b>Work Experience</b></h2>
 
-          <div className="company m-auto">
+          <div className="company m-auto pb-4">
             <h3>Hogarth Worldwide, India - Software Engineer</h3>
             <h3>(July 2018 - March 2021)</h3>
             <p>- Worked with hogarth India from July 2018 to March 2021 on various independent as well as team projects.</p>
@@ -277,7 +286,7 @@ function Portfolio() {
             <p>- Worked on the front-end of other minor projects like Corporate Gurukul and Lentra.</p>
           </div>
 
-          <div className="company">
+          <div className="company pb-4">
             <h3>Collegedunia Web Pvt Ltd - Software Engineer</h3>
             <h3>(March 2021 - August 2021)</h3>
             <p>- Worked with collegedunia.com (product based company) from March 2021 to August 2021 as 
@@ -293,13 +302,13 @@ function Portfolio() {
 
         </div>
         
-        <div class="section education light text-center" id="education">
-          <h2 className="heading"><b>Education</b></h2>
-          <div className="company d-flex flex-column align-items-center">
+        <div class="section education light" id="education">
+          <h2 className="heading text-uppercase text-center"><b>Education</b></h2>
+          <div className="company d-flex flex-column align-items-center text-left">
             <p>I graduated with a Bachelors in Technology degree in <b>Electronics and Communication Engineering</b> 
-            from Guru Gobind Singh Indraprastha University <b>(IP University)</b> in 2017.</p>
-            <p>I finished 10th and 12th from <b>Cambridge School</b>, Srinivaspuri, <b>Delhi</b> in 2011 and 2013 respectively.</p>
-            <p>I developed an interest in <b>web development</b> and worked on various projects during my career, college and of my own.</p>
+            from Guru Gobind Singh Indraprastha University <b>(IP University)</b> in 2017.</p><br/>
+            <p>I finished 10th and 12th from <b>Cambridge School</b>, Srinivaspuri, <b>Delhi</b> in 2011 and 2013 respectively.</p><br/>
+            <p>I developed an interest in <b>web development</b> and worked on various projects during my career, college and of my own.</p><br/>
             <p>Currently I am pursuing Master of Science in Computer Science from <b>The University of Texas at Arlington</b></p>
           </div>
         </div>
