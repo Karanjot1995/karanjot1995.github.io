@@ -130,7 +130,7 @@ function Portfolio() {
             </div>
           </div>
           
-          <div className="m-5 m-sm-2">
+          <div className="slider-container m-md-5">
             <h3 className="sub-heading">Personal Projects</h3>
             <Slider {...settings}>
               <div class="text-center">
@@ -184,7 +184,7 @@ function Portfolio() {
           </div>
 
 
-          <div className="m-5 pd-t-5 m-sm-2">
+          <div className="m-md-5 pd-t-5 slider-container">
             <h3 className="sub-heading">Work Projects</h3>
             <Slider {...settings}>
               <div class="text-center">
@@ -220,7 +220,7 @@ function Portfolio() {
         
 
 
-          <div className="m-5 pd-t-5 m-sm-2">
+          <div className="m-md-5 pd-t-5 slider-container">
             <h3 className="sub-heading">Static Designs</h3>
             <Slider {...settings}>
             <div class="text-center">

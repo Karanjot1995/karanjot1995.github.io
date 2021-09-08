@@ -265,7 +265,7 @@
 
 @media screen and (max-width:768px) {
 	.m-sm-2{
-		margin: 2rem;
+		margin: 2rem!important;
 	}
 	.cover-right{
 		width:80%;
@@ -285,7 +285,7 @@
 	//-------Typewriter-------//
 
 	.typewriter{
-		width: max-content;
+		width: 100%;
 		padding: 2rem 4rem 2rem 5rem;
 		margin: auto!important;
 		h2{
@@ -310,10 +310,13 @@
 	}
 
 	.slick-dots li button:before{
-		font-size: 10px;
+		font-size: 10px!important;
 	}
 
 	.skills{
+		.slider-container{
+			margin:3rem 2rem;
+		}
 		.skill-set{
 			width:100%;
 		}
@@ -323,7 +326,8 @@
 			padding: 5px 9px;
 		}
 		.expanded img {
-			height: 150px;
+			height: 170px;
+			width:95%;
 	  }
 		.thumbnail img {
 			width: 33%;
