@@ -4,7 +4,7 @@ import cover from '../images/cover1.jpeg';
 import ReactDOM from 'react-dom';
 import './portfolio.scss';
 import { BsChevronCompactDown } from 'react-icons/bs';
-import {FiMenu} from 'react-icons/fi'
+import {FiMenu,FiDownload} from 'react-icons/fi'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -98,6 +98,7 @@ function Portfolio() {
               <img src={require('../images/profile.jpg').default} className="profile" height="200" width="200"/>
               <h2 className="name fs-40"><b>Karanjot Singh</b></h2>
               <h4 className="city">Arlington, Texas</h4>
+              <a className="resume" href="/resume.pdf" target="_blank"><h4><FiDownload/> Download Resume</h4></a>
               <div className="social-links">
                 {/* <a href="#"><img src={require('../images/images/facebook.png').default}/></a> */}
                 <a href="https://twitter.com/sleepy_singh" target="_blank"><img src={require('../images/images/twitter.png').default}/></a>
