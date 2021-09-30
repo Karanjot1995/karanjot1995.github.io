@@ -293,6 +293,8 @@ function Portfolio() {
             <p>- Worked with collegedunia.com (product based company) from March 2021 to August 2021 as 
               a senior software engineer on their main education portal(collegedunia.com) 
               as a software engineer using Nextjs, Reactjs, Nodejs, HTML and CSS.</p>
+            <p>- Created many components like dynamic forms, search etc. and APIs.</p>
+            <p>- Worked on optimizing the website for decreasing the response time of each component and hence decreasing the overall page load time leading a team of 5.</p>
           </div>
 
           <div className="company">
