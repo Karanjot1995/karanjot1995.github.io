@@ -119,6 +119,7 @@ function Portfolio() {
                 <p className="skill-bubble">Javascript</p>
                 <p className="skill-bubble">Reactjs</p>
                 <p className="skill-bubble">Redux</p>
+                <p className="skill-bubble">SQL</p>
                 <p className="skill-bubble">React Native</p>
                 <p className="skill-bubble">Python</p>
                 <p className="skill-bubble">SASS</p>
