@@ -147,9 +147,10 @@ function Portfolio() {
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
               <div className="text-center">
-                <a className="expanded" href="https://github.com/Karanjot1995/Social" target="_blank">
+                <a className="expanded" href="http://social-web.co.in/" target="_blank">
                   <img src={require('../images/social/social-1.png').default}/>
                 </a>
+                {/* https://github.com/Karanjot1995/Social */}
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-1.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png').default}/></a>
