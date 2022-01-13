@@ -1,19 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.92979d61.chunk.css",
-    "main.js": "/static/js/main.e982b02f.chunk.js",
-    "main.js.map": "/static/js/main.e982b02f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cee05d71.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cee05d71.js.map",
+    "main.js": "/static/js/main.d14e7e61.chunk.js",
+    "main.js.map": "/static/js/main.d14e7e61.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.843f8d8d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.843f8d8d.js.map",
     "static/css/2.871e3548.chunk.css": "/static/css/2.871e3548.chunk.css",
-    "static/js/2.e28f5ac8.chunk.js": "/static/js/2.e28f5ac8.chunk.js",
-    "static/js/2.e28f5ac8.chunk.js.map": "/static/js/2.e28f5ac8.chunk.js.map",
-    "static/js/3.44fc1949.chunk.js": "/static/js/3.44fc1949.chunk.js",
-    "static/js/3.44fc1949.chunk.js.map": "/static/js/3.44fc1949.chunk.js.map",
+    "static/js/2.84a8074e.chunk.js": "/static/js/2.84a8074e.chunk.js",
+    "static/js/2.84a8074e.chunk.js.map": "/static/js/2.84a8074e.chunk.js.map",
+    "static/js/3.39524a5e.chunk.js": "/static/js/3.39524a5e.chunk.js",
+    "static/js/3.39524a5e.chunk.js.map": "/static/js/3.39524a5e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.871e3548.chunk.css.map": "/static/css/2.871e3548.chunk.css.map",
     "static/css/main.92979d61.chunk.css.map": "/static/css/main.92979d61.chunk.css.map",
-    "static/js/2.e28f5ac8.chunk.js.LICENSE.txt": "/static/js/2.e28f5ac8.chunk.js.LICENSE.txt",
+    "static/js/2.84a8074e.chunk.js.LICENSE.txt": "/static/js/2.84a8074e.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/static/media/1.4437d46c.png",
+    "static/media/2.png": "/static/media/2.e5f609f0.png",
+    "static/media/3.png": "/static/media/3.ee6c7c6e.png",
+    "static/media/4.png": "/static/media/4.32af7f4d.png",
+    "static/media/5.png": "/static/media/5.f05865bd.png",
     "static/media/cg.png": "/static/media/cg.35d5ea6b.png",
     "static/media/chatbot.png": "/static/media/chatbot.08ec939e.png",
     "static/media/collegedunia.png": "/static/media/collegedunia.0449f08f.png",
@@ -44,10 +49,10 @@
     "static/media/wmt-3.png": "/static/media/wmt-3.de5a19f2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cee05d71.js",
+    "static/js/runtime-main.843f8d8d.js",
     "static/css/2.871e3548.chunk.css",
-    "static/js/2.e28f5ac8.chunk.js",
+    "static/js/2.84a8074e.chunk.js",
     "static/css/main.92979d61.chunk.css",
-    "static/js/main.e982b02f.chunk.js"
+    "static/js/main.d14e7e61.chunk.js"
   ]
 }
