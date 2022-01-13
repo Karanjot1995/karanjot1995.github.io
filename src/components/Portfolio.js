@@ -136,13 +136,26 @@ function Portfolio() {
             <h3 className="sub-heading">Personal Projects</h3>
             <Slider {...settings}>
               <div className="text-center">
+                <a className="expanded" href="https://netflix-vms.herokuapp.com/home" target="_blank">
+                  <img src={require('../images/netflix/1.png').default}/>
+                </a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/1.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/2.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/3.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/4.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/5.png').default}/></a>
+                <h3><a href="https://netflix-vms.herokuapp.com/home">Netflix</a></h3>
+                <p>Netflix Clone Video Management System</p>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MySQL</p>
+              </div>
+              <div className="text-center">
                 <a className="expanded" href="https://groomers.co.in/" target="_blank">
                   <img src={require('../images/groomers/groomers-1.png').default}/>
                 </a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-1.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-3.png').default}/></a>
-                <h3>groomers.co.in</h3>
+                <h3><a href="https://groomers.co.in/">groomers.co.in</a></h3>
                 <p>E-commerce website for Indian business purposes</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
@@ -154,7 +167,7 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-1.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png').default}/></a>
-                <h3>Social Web (Facebook functionalities)</h3>
+                <h3><a href="http://social-web.co.in/">Social Web (Facebook functionalities)</a></h3>
                 <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
                 <p>Tech Stack: Express, Nodejs, MongoDB</p>
               </div> 
