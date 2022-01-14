@@ -144,7 +144,10 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/3.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/4.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/5.png').default}/></a>
-                <h3><a href="https://netflix-vms.herokuapp.com/home">Netflix</a></h3>
+                <h3 className="d-flex justify-content-center">
+                  <a href="https://netflix-vms.herokuapp.com/home">Netflix</a>&nbsp;              
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Netflix-VMS"><img className="github-logo" src={require('../images/github-logo.png').default}/>github</a>)
+                </h3>
                 <p>Netflix Clone Video Management System</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MySQL</p>
               </div>
@@ -155,7 +158,11 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-1.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-3.png').default}/></a>
-                <h3><a href="https://groomers.co.in/">groomers.co.in</a></h3>
+                <h3 className="d-flex justify-content-center">
+                  <a href="https://groomers.co.in/">groomers.co.in</a>&nbsp;                  
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/groomers-server"><img className="github-logo" src={require('../images/github-logo.png').default}/>github</a>)
+                </h3>
+                
                 <p>E-commerce website for Indian business purposes</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
@@ -167,9 +174,12 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-1.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-2.png').default}/></a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png').default}/></a>
-                <h3><a href="http://social-web.co.in/">Social Web (Facebook functionalities)</a></h3>
+                <h3 className="d-flex justify-content-center">
+                  <a href="https://groomers.co.in/">social-web.co.in</a>&nbsp;                  
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Social"><img className="github-logo" src={require('../images/github-logo.png').default}/>github</a>)
+                </h3>                
                 <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
-                <p>Tech Stack: Express, Nodejs, MongoDB</p>
+                <p>Tech Stack: Ejs, Express, Nodejs, MongoDB</p>
               </div> 
               <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/SEO_tool" target="_blank">
