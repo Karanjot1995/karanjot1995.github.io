@@ -130,6 +130,7 @@ function Portfolio() {
                 <p className="skill-bubble">mySQL</p>
                 <p className="skill-bubble">PostgresSQL</p>
                 <p className="skill-bubble">Bootstrap</p>
+                <p className="skill-bubble">Web Development</p>
                 <p className="skill-bubble">jQuery</p>
                 <p className="skill-bubble">Git</p>
             </div>
@@ -305,7 +306,7 @@ function Portfolio() {
             <h3>Hogarth Worldwide, India - Software Engineer</h3>
             <h3>(July 2018 - March 2021)</h3>
             <p>
-              - Created aWorkplace Management Tool for the company wherein individual employees can login 
+              - Created a Workplace Management Tool for the company wherein individual employees can login 
               and mark in/mark out attendance, fill their tasks/timesheets, apply leaves and the managers 
               could see the utilization of each/all employees, and also integrated node mailer which automatically 
               generates mail if someone forgets to fill attendance/tasks for the previous day using Reactjs javascript 
