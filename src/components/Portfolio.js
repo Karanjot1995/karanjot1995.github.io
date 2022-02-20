@@ -124,8 +124,11 @@ function Portfolio() {
                 <p className="skill-bubble">Python</p>
                 <p className="skill-bubble">SASS</p>
                 <p className="skill-bubble">Nodejs</p>
+                <p className="skill-bubble">Java</p>
                 <p className="skill-bubble">Express</p>
                 <p className="skill-bubble">MongoDb</p>
+                <p className="skill-bubble">mySQL</p>
+                <p className="skill-bubble">PostgresSQL</p>
                 <p className="skill-bubble">Bootstrap</p>
                 <p className="skill-bubble">jQuery</p>
                 <p className="skill-bubble">Git</p>
@@ -301,15 +304,16 @@ function Portfolio() {
           <div className="company m-auto pb-4">
             <h3>Hogarth Worldwide, India - Software Engineer</h3>
             <h3>(July 2018 - March 2021)</h3>
-            <p>- Worked with hogarth India from July 2018 to March 2021 on various independent as well as team projects.</p>
             <p>
-              - Developed the SEO automation tool and the Workplace Management Tool for using MERN stack 
-              for the company during covid to make the various company process smoother like timesheet filling, 
-              Attendance, Employee utilization graph based on the hours and kind of work and downloading 
-              of such employee data from the tool.
+              - Created aWorkplace Management Tool for the company wherein individual employees can login 
+              and mark in/mark out attendance, fill their tasks/timesheets, apply leaves and the managers 
+              could see the utilization of each/all employees, and also integrated node mailer which automatically 
+              generates mail if someone forgets to fill attendance/tasks for the previous day using Reactjs javascript 
+              framework, Redux, Nodejs, Express and Mongodb and worked on implementation of websites like Corporate Gurukul and Lentra.
             </p>
-            <p>- Worked on Discernliving.com which was a full stack project as well on React, Express, and Nodejs.</p>
-            <p>- Worked on the front-end of other minor projects like Corporate Gurukul and Lentra.</p>
+            <p>- Worked as a team lead on Discernliving.com using Reactjs javascript framework, Nodejs, Expressjs, HTML and CSS(since 2018).</p>
+            <p>- Worked on the BMW India website as a team lead on Adobe Experience Manager Platform and used HTML, CSS ,Java and javascript for development (since 2018).</p>
+            <p>- Created an SEO tool for automating the SEO work for the company using Reactjs javascript framework, Redux and Nodejs</p>
           </div>
 
           <div className="company pb-4">
@@ -318,8 +322,8 @@ function Portfolio() {
             <p>- Worked with collegedunia.com (product based company) from March 2021 to August 2021 as 
               a senior software engineer on their main education portal(collegedunia.com) 
               as a software engineer using Nextjs, Reactjs, Nodejs, HTML and CSS.</p>
-            <p>- Created many components like dynamic forms, search etc. and APIs.</p>
-            <p>- Worked on optimizing the website for decreasing the response time of each component and hence decreasing the overall page load time leading a team of 5.</p>
+            <p>- Defined and conducted the project on various stages including research, conceptualization, testing and implementation and Created many components like dynamic forms, search etc. and APIs.</p>
+            <p>-  Validated and wrote code for proper structuring, compatibility with different browsers and worked on optimizing the for decreasing the response time and enhancing performance.</p>
           </div>
 
           <div className="company">
