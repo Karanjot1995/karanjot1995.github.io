@@ -301,7 +301,12 @@ function Portfolio() {
 
         <div className="section work-ex dark" id="work-ex">
           <h2 className="heading text-center text-uppercase"><b>Work Experience</b></h2>
-
+          <div className="company m-auto pb-4">
+            <h3>Megger(Dallas, Tx): Software Engineer Intern</h3>
+            <h3>(June 2022 - Current)</h3>
+            <p>- Worked on Megger web portal for handling equipment delivery and management using PHP Laravel, Vuejs, Javascript and MySql.</p>
+            <p>- Validated, tested and wrote code to maximize the performance and deliver the best on a short notice.</p>
+          </div>
           <div className="company m-auto pb-4">
             <h3>Hogarth Worldwide, India - Software Engineer</h3>
             <h3>(July 2018 - March 2021)</h3>
