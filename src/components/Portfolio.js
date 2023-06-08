@@ -129,6 +129,12 @@ function Portfolio() {
                 <p className="skill-bubble">MongoDb</p>
                 <p className="skill-bubble">mySQL</p>
                 <p className="skill-bubble">PostgresSQL</p>
+                <p className="skill-bubble">Google Cloud</p>
+                <p className="skill-bubble">Kubernetes</p>
+                <p className="skill-bubble">Docker</p>
+                <p className="skill-bubble">Firebase</p>
+                <p className="skill-bubble">Rest API</p>
+                <p className="skill-bubble">TypeScript</p>
                 <p className="skill-bubble">Bootstrap</p>
                 <p className="skill-bubble">Web Development</p>
                 <p className="skill-bubble">jQuery</p>
@@ -303,10 +309,18 @@ function Portfolio() {
           <h2 className="heading text-center text-uppercase"><b>Work Experience</b></h2>
           <div className="company m-auto pb-4">
             <h3>Megger(Dallas, Tx): Software Engineer Intern</h3>
-            <h3>(June 2022 - Current)</h3>
+            <h3>(June 2022 - May 2023)</h3>
             <p>- Worked on Megger web portal for handling equipment delivery and management using PHP Laravel, Vuejs, Javascript and MySql.</p>
             <p>- Validated, tested and wrote code to maximize the performance and deliver the best on a short notice.</p>
           </div>
+
+          <div className="company m-auto pb-4">
+            <h3>Megger(Dallas, Tx): Software Engineer</h3>
+            <h3>(June 2023 - Current)</h3>
+            <p>- Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery and management using PHP Laravel, Vuejs, Javascript and MySql.</p>
+            <p>- Working on designing and developing (Front end and back end) rental platform for electrical equipments, cutting costs for external paid platforms using Vuejs, MySQL, PHP Laravel and Nodejs.</p>
+          </div>
+
           <div className="company m-auto pb-4">
             <h3>Hogarth Worldwide, India - Software Engineer</h3>
             <h3>(July 2018 - March 2021)</h3>
@@ -343,7 +357,7 @@ function Portfolio() {
         <div className="section education light" id="education">
           <h2 className="heading text-uppercase text-center"><b>Education</b></h2>
           <div className="company d-flex flex-column align-items-center text-left">
-            <p>Currently I am pursuing Master of Science in Computer Science from <b>The University of Texas at Arlington</b>. <b>GPA : 4.0</b></p><br/>
+            <p>Currently I am working as a software engineer at Megger and finished my Master of Science in Computer Science from <b>The University of Texas at Arlington</b>. <b>GPA : 4.0</b></p><br/>
             <p>I graduated with a Bachelors in Technology degree in <b>Electronics and Communication Engineering</b> 
             from Guru Gobind Singh Indraprastha University <b>(IP University)</b> in 2017.</p><br/>
             <p>I finished 10th and 12th from <b>Cambridge School</b>, Srinivaspuri, <b>Delhi</b> in 2011 and 2013 respectively.</p><br/>
