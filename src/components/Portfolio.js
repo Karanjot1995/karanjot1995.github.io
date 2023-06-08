@@ -95,16 +95,16 @@ function Portfolio() {
             </div>
 
             <div className="text-center cover-right">
-              <img src={require('../images/profile.jpg').default} className="profile" height="200" width="200"/>
+              <img src={require('../images/profile.jpg')} className="profile" height="200" width="200"/>
               <h2 className="name fs-40"><b>Karanjot Singh</b></h2>
               <h4 className="city">Arlington, Texas</h4>
               <a className="resume" href="/resume.pdf" target="_blank"><h4><FiDownload/> Download Resume</h4></a>
               <div className="social-links">
-                {/* <a href="#"><img src={require('../images/images/facebook.png').default}/></a> */}
-                <a href="https://twitter.com/sleepy_singh" target="_blank"><img src={require('../images/images/twitter.png').default}/></a>
-                <a href="https://www.linkedin.com/in/karanjotsingh1995/" target="_blank"><img src={require('../images/images/Linkedin.png').default}/></a>
-                <a href="https://github.com/Karanjot1995" target="_blank"><img src={require('../images/images/github.png').default}/></a>
-                <a href="#"><img src={require('../images/images/quora.png').default}/></a>
+                {/* <a href="#"><img src={require('../images/images/facebook.png')}/></a> */}
+                <a href="https://twitter.com/sleepy_singh" target="_blank"><img src={require('../images/images/twitter.png')}/></a>
+                <a href="https://www.linkedin.com/in/karanjotsingh1995/" target="_blank"><img src={require('../images/images/Linkedin.png')}/></a>
+                <a href="https://github.com/Karanjot1995" target="_blank"><img src={require('../images/images/github.png')}/></a>
+                <a href="#"><img src={require('../images/images/quora.png')}/></a>
               </div>
             </div>
           </div>
@@ -147,30 +147,30 @@ function Portfolio() {
             <Slider {...settings}>
               <div className="text-center">
                 <a className="expanded" href="https://netflix-vms.herokuapp.com/home" target="_blank">
-                  <img src={require('../images/netflix/1.png').default}/>
+                  <img src={require('../images/netflix/1.png')}/>
                 </a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/1.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/2.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/3.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/4.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/5.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/3.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/4.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/5.png')}/></a>
                 <h3 className="d-flex justify-content-center">
                   <a href="https://netflix-vms.herokuapp.com/home">Netflix</a>&nbsp;              
-                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Netflix-VMS"><img className="github-logo" src={require('../images/github-logo.png').default}/>github</a>)
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Netflix-VMS"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
                 </h3>
                 <p>Netflix Clone Video Management System</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MySQL</p>
               </div>
               <div className="text-center">
                 <a className="expanded" href="https://groomers.co.in/" target="_blank">
-                  <img src={require('../images/groomers/groomers-1.png').default}/>
+                  <img src={require('../images/groomers/groomers-1.png')}/>
                 </a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-1.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-2.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-3.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-3.png')}/></a>
                 <h3 className="d-flex justify-content-center">
                   <a href="https://groomers.co.in/">groomers.co.in</a>&nbsp;                  
-                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/groomers-server"><img className="github-logo" src={require('../images/github-logo.png').default}/>github</a>)
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/groomers-server"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
                 </h3>
                 
                 <p>E-commerce website for Indian business purposes</p>
@@ -178,41 +178,41 @@ function Portfolio() {
               </div>
               <div className="text-center">
                 <a className="expanded" href="http://social-web.co.in/" target="_blank">
-                  <img src={require('../images/social/social-1.png').default}/>
+                  <img src={require('../images/social/social-1.png')}/>
                 </a>
                 {/* https://github.com/Karanjot1995/Social */}
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-1.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-2.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png')}/></a>
                 <h3 className="d-flex justify-content-center">
                   <a href="https://groomers.co.in/">social-web.co.in</a>&nbsp;                  
-                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Social"><img className="github-logo" src={require('../images/github-logo.png').default}/>github</a>)
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Social"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
                 </h3>                
                 <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
                 <p>Tech Stack: Ejs, Express, Nodejs, MongoDB</p>
               </div> 
               <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/SEO_tool" target="_blank">
-                  <img src={require('../images/seo-1.png').default}/>
+                  <img src={require('../images/seo-1.png')}/>
                 </a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-1.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-2.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-3.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-3.png')}/></a>
                 <h3>SEO Automation Tool</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
               <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
-                  <img src={require('../images/wmt/wmt-1.png').default}/>
+                  <img src={require('../images/wmt/wmt-1.png')}/>
                 </a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-1.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-2.png').default}/></a>
-                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-3.png').default}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-3.png')}/></a>
                 <h3>Workplace Management Tool</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
               {/* <div className="text-center">
-                <a href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
+                <a href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png')}/></a>
                 <h3>TO do list</h3>
                 <p></p>
               </div> */}
@@ -224,30 +224,30 @@ function Portfolio() {
             <h3 className="sub-heading">Work Projects</h3>
             <Slider {...settings}>
               <div className="text-center">
-                <a href="https://collegedunia.com/" className="expanded" target="_blank"><img src={require('../images/collegedunia.png').default}/></a>
+                <a href="https://collegedunia.com/" className="expanded" target="_blank"><img src={require('../images/collegedunia.png')}/></a>
                 <h3>collegedunia.com (Collegedunia web Pvt. Ltd.)</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
                 <p></p>
               </div>
               <div className="text-center">
-                <a href="https://www.discernliving.com/" className="expanded" target="_blank"><img src={require('../images/discernliving.png').default}/></a>
+                <a href="https://www.discernliving.com/" className="expanded" target="_blank"><img src={require('../images/discernliving.png')}/></a>
                 <h3>discernliving.com (Hogarth India)</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs (Full Stack)</p>
               </div>
               <div className="text-center">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
-                  <img src={require('../images/wmt/wmt-1.png').default}/>
+                  <img src={require('../images/wmt/wmt-1.png')}/>
                 </a>
                 <h3>Workplace Management Tool</h3>
                 <p>Tech Stack: MongoDb, Reactjs, Express, Nodejs (Full Stack)</p>
               </div>
               <div className="text-center">
-                <a href="https://www.corporategurukul.com/" className="expanded" target="_blank"><img src={require('../images/cg.png').default}/></a>
+                <a href="https://www.corporategurukul.com/" className="expanded" target="_blank"><img src={require('../images/cg.png')}/></a>
                 <h3>Corporate Gurukul (Hogarth India)</h3>
                 <p>Tech Stack: HTML, CSS, JQuery (Frontend)</p>
               </div>
               <div className="text-center">
-                <a href="https://lentra.ai/" className="expanded" target="_blank"><img src={require('../images/lentra.png').default}/></a>
+                <a href="https://lentra.ai/" className="expanded" target="_blank"><img src={require('../images/lentra.png')}/></a>
                 <h3>Lentra.ai (Hogarth India)</h3>
                 <p>Tech Stack: HTML, CSS, Javascript (Frontend)</p>
               </div>
@@ -260,37 +260,37 @@ function Portfolio() {
             <h3 className="sub-heading">Static Designs</h3>
             <Slider {...settings}>
             <div className="text-center">
-                  <a className="expanded" href="https://karanjot1995.github.io/chatbot.html" target="_blank"><img  src={require('../images/images/chatbot.png').default}/></a>
+                  <a className="expanded" href="https://karanjot1995.github.io/chatbot.html" target="_blank"><img  src={require('../images/images/chatbot.png')}/></a>
                   <h3>chatbot</h3>
                   <p></p>
               </div>
               <div className="text-center">
-                <a className="expanded" href="https://karanjot1995.github.io/resume.html" target="_blank"><img src={require('../images/images/design_1.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/resume.html" target="_blank"><img src={require('../images/images/design_1.png')}/></a>
                 <h3>Resume-design</h3>
                 <p></p>
               </div> 
               <div className="text-center">
-                <a className="expanded" href="https://karanjot1995.github.io/terracotta.html" target="_blank"><img src={require('../images/images/design_2.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/terracotta.html" target="_blank"><img src={require('../images/images/design_2.png')}/></a>
                 <h3>Terracotta</h3>
                 <p></p>
               </div>
               <div className="text-center">
-                <a className="expanded" href="https://karanjot1995.github.io/facebook.html" target="_blank"><img src={require('../images/images/design_3.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/facebook.html" target="_blank"><img src={require('../images/images/design_3.png')}/></a>
                 <h3>Facebook-design</h3>
                 <p></p>
               </div>
               <div className="text-center">
-                <a className="expanded" href="https://karanjot1995.github.io/golden.html" target="_blank"><img src={require('../images/images/design_4.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/golden.html" target="_blank"><img src={require('../images/images/design_4.png')}/></a>
                 <h3>Golden-design</h3>
                 <p></p>
               </div>
               <div className="text-center">
-                <a className="expanded" href="https://karanjot1995.github.io/focus.html" target="_blank"><img src={require('../images/images/design_5.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/focus.html" target="_blank"><img src={require('../images/images/design_5.png')}/></a>
                 <h3>Focus-design</h3>
                 <p></p>
               </div>
               <div className="text-center">
-                <a className="expanded" href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png').default}/></a>
+                <a className="expanded" href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png')}/></a>
                 <h3>Elle_reve-design</h3>
                 <p></p>
               </div>
