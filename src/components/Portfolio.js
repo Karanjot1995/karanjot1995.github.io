@@ -146,7 +146,7 @@ function Portfolio() {
             <h3 className="sub-heading">Personal Projects</h3>
             <Slider {...settings}>
               <div className="text-center">
-                <a className="expanded" href="https://netflix-vms.herokuapp.com/home" target="_blank">
+                <a className="expanded" href="https://netflix-49393.web.app/" target="_blank">
                   <img src={require('../images/netflix/1.png')}/>
                 </a>
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/1.png')}/></a>
@@ -156,7 +156,7 @@ function Portfolio() {
                 <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/5.png')}/></a>
                 <h3 className="d-flex justify-content-center">
                   {/* <a href="https://netflix-vms.herokuapp.com/home">Netflix</a>&nbsp;               */}
-                  <a href='https://netflix-d30b6.web.app/'>Netflix</a>
+                  <a href='https://netflix-49393.web.app/'>Netflix</a>
                   (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Netflix-VMS"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
                 </h3>
                 <p>Netflix Clone Video Management System</p>
