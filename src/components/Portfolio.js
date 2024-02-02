@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './portfolio.scss';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import {FiMenu,FiDownload} from 'react-icons/fi'
-import { FaLaptopCode } from "react-icons/fa";
+import { FaLaptopCode, FaLaptop, FaBriefcase} from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -132,7 +132,7 @@ function Portfolio() {
         
         <section className="section light projects text-center" ref={myRef} id="projects">
           <div className="container-fluid text-center">
-            <h2 className="heading text-uppercase"><b>Projects</b></h2>
+            <h2 className="heading text-uppercase"><FaLaptop/> Projects</h2>
           </div>
           
           <div className="slider-container m-md-5">
@@ -300,7 +300,9 @@ function Portfolio() {
         </section>
 
         <section className="section work-ex dark" id="work-ex">
-          <h2 className="heading text-center text-uppercase"><b>Work Experience</b></h2>
+          <div className="container-fluid text-center">
+            <h2 className="heading text-center text-uppercase"><FaBriefcase/> Work Experience</h2>
+          </div>
 
           <div className="company m-auto pb-4">
             <h3>Megger(Dallas, Tx): Software Engineer</h3>
@@ -344,7 +346,7 @@ function Portfolio() {
         </section>
         
         <section className="section education light" id="education">
-          <h2 className="heading text-uppercase text-center"><b>Education</b></h2>
+          <h2 className="heading text-uppercase text-center">Education</h2>
           <div className="company d-flex flex-column align-items-center text-left">
             <p>Currently I am working as a software engineer at Megger and finished my Master of Science in Computer Science from <b>The University of Texas at Arlington</b>. <b>GPA : 4.0</b></p><br/>
             <p>I graduated with a Bachelors in Technology degree in <b>Electronics and Communication Engineering</b> 
