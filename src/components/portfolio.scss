@@ -17,7 +17,11 @@
 .resume{
 	text-decoration: none;
 }
+body{
+	font-family: "Poppins", sans-serif;
+}
 .heading{
+	font-family: "Poppins", sans-serif;
 	font-size: 45px;
 	margin-bottom: 30px;
 }
@@ -38,7 +42,7 @@ section{
 	}
 }
 .light{
-	background-color: #a9a9a9;
+	background: linear-gradient(to bottom, #d8e0ef, #bba2ed);;
 }
 .dark{
 	background-color: #1d1c1c;
