@@ -1,0 +1,110 @@
+[
+  {
+      "name": "ReactJS",
+      "icon": "../images/logos/react.png"
+  },
+  {
+      "name": "ExpressJS",
+      "icon": "../images/logos/express.png"
+  },
+  {
+      "name": "NodeJS",
+      "icon": "../images/logos/node.png"
+  },
+  {
+      "name": "Redux",
+      "icon": "../images/logos/redux.png"
+  },
+  {
+      "name": "Firebase",
+      "icon": "../images/logos/firebase.png"
+  },
+  {
+      "name": "Android",
+      "icon": "../images/logos/android.png"
+  },
+  {
+      "name": "MaterialUI",
+      "icon": "../images/logos/material.png"
+  },
+  {
+      "name": "TailwindCSS",
+      "icon": "../images/logos/tailwind.png"
+  },
+  {
+      "name": "Bootstrap",
+      "icon": "../images/logos/bootstrap.png"
+  },
+  {
+      "name": "Sass",
+      "icon": "../images/logos/sass.png"
+  },
+  {
+      "name": "HTML5",
+      "icon": "../images/logos/html.png"
+  },
+  {
+      "name": "CSS3",
+      "icon": "../images/logos/css.png"
+  },
+  {
+      "name": "JavaScript",
+      "icon": "../images/logos/javascript.png"
+  },
+  {
+      "name": "Java",
+      "icon": "../images/logos/java.png"
+  },
+  {
+      "name": "PHP",
+      "icon": "../images/logos/php.png"
+  },
+  {
+    "name": "Laravel",
+    "icon": "../images/logos/laravel.png"
+  },
+  {
+      "name": "Python",
+      "icon": "../images/logos/python.png"
+  },
+  {
+      "name": "C++",
+      "icon": "../images/logos/c.png"
+  },
+  {
+      "name": "MongoDB",
+      "icon": "../images/logos/mongodb.png"
+  },
+  {
+      "name": "MySQL",
+      "icon": "../images/logos/mysql.png"
+  },
+  {
+      "name": "PostgreSQL",
+      "icon": "../images/logos/postgresql.png"
+  },
+  {
+      "name": "AWS",
+      "icon": "../images/logos/aws.png"
+  },
+  {
+      "name": "Heroku",
+      "icon": "../images/logos/heroku.png"
+  },
+  {
+      "name": "GCP",
+      "icon": "../images/logos/gcp.png"
+  },
+  {
+      "name": "jQuery",
+      "icon": "../images/logos/jquery.png"
+  },
+  {
+      "name": "Git",
+      "icon": "../images/logos/git.png"
+  },
+  {
+      "name": "GitHub",
+      "icon": "../images/logos/github.png"
+  }  
+]

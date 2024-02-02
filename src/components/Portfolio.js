@@ -5,10 +5,11 @@ import ReactDOM from 'react-dom';
 import './portfolio.scss';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import {FiMenu,FiDownload} from 'react-icons/fi'
+import { FaLaptopCode } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
+import skills from './skills.json';
 
 function Portfolio() {
   const [toggleMenu, settoggleMenu] = useState(false)
@@ -82,7 +83,7 @@ function Portfolio() {
             <li><a href="#get-in-touch">Contact me</a></li>
           </ul>
         </div>
-        <div className="section" id="intro">
+        <section className="section" id="intro">
           <div className="cover">
             <div className="cover-img">
               <button className="see-more" onClick={()=>scrollDown()} ><BsChevronCompactDown fill={"#fff"} className="down-arrow"/></button>
@@ -108,42 +109,34 @@ function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
-        
-        <div className="section skills light text-center" ref={myRef} id="skills">
+        </section>
+
+        <section class="skills" id="skills">
           <div className="container-fluid text-center">
-            <h2 className="heading text-uppercase"><b>Projects and Skills</b></h2>
-            <div className="d-flex justify-content-center text-uppercase skill-set">
-                <p className="skill-bubble">HTML</p>
-                <p className="skill-bubble">CSS</p>
-                <p className="skill-bubble">Javascript</p>
-                <p className="skill-bubble">Reactjs</p>
-                <p className="skill-bubble">Redux</p>
-                <p className="skill-bubble">SQL</p>
-                <p className="skill-bubble">React Native</p>
-                <p className="skill-bubble">Python</p>
-                <p className="skill-bubble">SASS</p>
-                <p className="skill-bubble">Nodejs</p>
-                <p className="skill-bubble">Java</p>
-                <p className="skill-bubble">Express</p>
-                <p className="skill-bubble">MongoDb</p>
-                <p className="skill-bubble">mySQL</p>
-                <p className="skill-bubble">PostgresSQL</p>
-                <p className="skill-bubble">Google Cloud</p>
-                <p className="skill-bubble">Kubernetes</p>
-                <p className="skill-bubble">Docker</p>
-                <p className="skill-bubble">Firebase</p>
-                <p className="skill-bubble">Rest API</p>
-                <p className="skill-bubble">TypeScript</p>
-                <p className="skill-bubble">Bootstrap</p>
-                <p className="skill-bubble">Web Development</p>
-                <p className="skill-bubble">jQuery</p>
-                <p className="skill-bubble">Git</p>
+            <h2 class="heading"><FaLaptopCode/> Skills and <span>Abilities</span></h2>
+          </div>
+          <div class="container">
+            <div class="grid">
+              {skills.map(skill=>
+                <div class="skill-box">
+                  <div class="skill-info d-flex flex-column align-items-center">
+                    {/* <img src={skill.icon} alt={skill.name} /> */}
+                    <img src={skill.icon} alt={skill.name} />
+                    <span>{skill.name}</span>
+                  </div>
+                </div>
+              )}
             </div>
+          </div>
+        </section>
+        
+        <section className="section light projects text-center" ref={myRef} id="projects">
+          <div className="container-fluid text-center">
+            <h2 className="heading text-uppercase"><b>Projects</b></h2>
           </div>
           
           <div className="slider-container m-md-5">
-            <h3 className="sub-heading">Personal Projects</h3>
+            {/* <h3 className="sub-heading">Personal Projects</h3> */}
             <Slider {...settings}>
               <div className="text-center">
                 <a className="expanded" href="https://netflix-49393.web.app/" target="_blank">
@@ -304,9 +297,9 @@ function Portfolio() {
     <span className="input-cursor"></span>
   </div> */}
         
-        </div>
+        </section>
 
-        <div className="section work-ex dark" id="work-ex">
+        <section className="section work-ex dark" id="work-ex">
           <h2 className="heading text-center text-uppercase"><b>Work Experience</b></h2>
           <div className="company m-auto pb-4">
             <h3>Megger(Dallas, Tx): Software Engineer Intern</h3>
@@ -353,9 +346,9 @@ function Portfolio() {
               connecting local businesses to consumers. Built the front end using HTML, CSS, jQuery and Bootstrap.</p>
           </div>
 
-        </div>
+        </section>
         
-        <div className="section education light" id="education">
+        <section className="section education light" id="education">
           <h2 className="heading text-uppercase text-center"><b>Education</b></h2>
           <div className="company d-flex flex-column align-items-center text-left">
             <p>Currently I am working as a software engineer at Megger and finished my Master of Science in Computer Science from <b>The University of Texas at Arlington</b>. <b>GPA : 4.0</b></p><br/>
@@ -364,9 +357,9 @@ function Portfolio() {
             <p>I finished 10th and 12th from <b>Cambridge School</b>, Srinivaspuri, <b>Delhi</b> in 2011 and 2013 respectively.</p><br/>
             <p>I developed an interest in <b>web development</b> and worked on various projects during my career, college and of my own.</p><br/>
           </div>
-        </div>
+        </section>
 
-        <div className="section get-in-touch dark text-center" id="get-in-touch">
+        <section className="section get-in-touch dark text-center" id="get-in-touch">
           <h3>Wanna get in touch or talk about a project?</h3>
           <p>
           Feel free to contact me via email at <br/>
@@ -374,7 +367,7 @@ function Portfolio() {
           {/* or contact me through the form below! */}
           </p>
 
-        </div>
+        </section>
     </div>
   );
 }

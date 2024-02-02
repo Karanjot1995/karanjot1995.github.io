@@ -28,7 +28,10 @@
 .cover{
     background: #000;
 }
-.light, .dark{
+#intro{
+	padding:0
+}
+section{
 	padding: 4rem;
 	p{
 		font-size: 20px;
@@ -145,7 +148,7 @@
 }
 
 
-.skills{
+#projects{
 	min-height: 100vh;
 	.skill-set{
 		flex-wrap: wrap;
@@ -391,4 +394,79 @@
 // .input-cursor { 
 // animation: blink .6s linear infinite alternate;
 // }
+
+
+
+.skills {
+	min-height: 90vh;
+  background: linear-gradient(to bottom, #05679e, #360891);
+	h2 {
+		color: #fff;
+	}
+	.heading span {
+		color: rgb(255, 230, 0);
+	}
+	.grid {
+		grid-template-columns: repeat(6, 1fr);
+		display: grid;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+	}
+	.container {
+		background: rgba(0, 0, 22, 0.4);
+		color: #fff;
+		border-radius: 1rem;
+		padding: 2rem;
+		width: 90%;
+		margin: auto;
+		margin-top: 2rem;
+	}
+	.skill-box {
+		margin-bottom: 10px;
+		padding: 10px;
+		border-radius: 1rem;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+		background: rgba(0, 0, 22, 0.9);
+		transition: 0.2s;
+		&:hover {
+			box-shadow: 0 7px 9px rgba(0, 2, 68, 0.8) !important;
+			background-color: rgba(0, 0, 0, 0.9) !important;
+		};
+		.skill-info {
+			gap: 1rem;
+			margin-top: 1rem;
+			img{
+				height:40px;
+			}
+			i {
+				font-size: 4rem;
+			}
+			span {
+				font-size: 2rem;
+				font-weight: 500;
+				font-family: "Poppins";
+				margin-left: 0.5rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+  .skills{
+		.container {
+			margin-top: 5px;
+			width: 100%;
+		}
+		.grid {
+			grid-template-columns: repeat(2, 1fr);
+			margin: 1rem;
+			padding: 2rem 0.2rem 2rem 0.2rem;
+			gap: 1rem;
+		}
+	} 
+}
 
