@@ -119,7 +119,8 @@
         "Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery, management and tracking using PHP Laravel, Vuejs, Javascript and MySql and deployed on AWS.",
         "Singlehandedly took care of all the processes from design and development to testing.",
         "Building the rental platform using Vuejs and built RESTful APIs using PHP Laravel to serve the data stored in MYSQL db. This is helping the company cut the cost for paid platforms by almost 75%."
-      ]
+      ],
+      "skills": ["PHP", "Laravel", "HTML", "CSS", "Javascript", "VueJs", "MySQL", "AWS", "REST API"]
     },
     {
       "company": "Megger, Dallas",
@@ -128,7 +129,8 @@
       "description": [
         "Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery and management using PHP Laravel, Vuejs, Javascript and MySql.",
         "Validated, tested and wrote code to maximize the performance and deliver the best in a short period of time."
-      ]
+      ],
+      "skills": ["PHP", "Laravel", "HTML", "CSS", "Javascript", "VueJs", "MySQL", "AWS", "REST API"]
     },
     {
       "company": "Collegedunia Web Pvt Ltd",
@@ -138,7 +140,8 @@
         "Worked with collegedunia.com from March 2021 to August 2021 as a senior software engineer on their main education portal(collegedunia.com) and led a team of 10 using Nextjs, Reactjs, Nodejs, HTML and CSS.",
         "Defined and conducted the project on various stages including research, conceptualization, testing and implementation and Created many components like dynamic forms, search etc. and APIs.",
         "Achieved a 15% reduction in software development cycle time by optimizing the deployment pipeline and implementing automated testing."
-      ]
+      ],
+      "skills": ["HTML", "CSS", "Javascript", "NextJs", "ReactJs", "NodeJs", "MySQL", "REST API"]
     },
     {
       "company": "Hogarth Worldwide",
@@ -150,7 +153,8 @@
         "Developed a Workplace Management Tool for the company for timesheet management, HR management and employee management and cut down employee management time by a significant 60% using Reactjs javascript framework, Redux, Nodejs, Express and Mongodb.",
         "Achieved a 20% improvement in website loading speed by optimizing frontend code and implementing caching strategies.",
         "Automated the SEO process by creating an SEO Tool using Reactjs javascript framework, Redux and Nodejs."
-      ]
+      ],
+      "skills": ["HTML", "CSS", "Javascript","ReactJs","Redux", "NodeJs", "MySQL", "MongoDB", "Java", "AEM", "Google Cloud Platform", "REST API"]
     }
   ]
 }

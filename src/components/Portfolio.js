@@ -326,11 +326,7 @@ function Portfolio() {
                   <p>* {des}</p>
                 ))}
                 <ul class="content-skills">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Wordpress</li>
+                  {event.skills.map(skill=>(<li>{skill}</li>))}
                 </ul>
               </div>
             </div> 
