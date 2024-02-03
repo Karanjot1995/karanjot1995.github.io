@@ -139,7 +139,7 @@ function Portfolio() {
           <div className="slider-container m-md-5">
             {/* <h3 className="sub-heading">Personal Projects</h3> */}
             <Slider {...settings}>
-              <div className="text-center">
+              <div className="text-center slide-card" style={{'padding':'20px'}}>
                 <a className="expanded" href="https://netflix-49393.web.app/" target="_blank">
                   <img src={require('../images/netflix/1.png')}/>
                 </a>
@@ -156,7 +156,7 @@ function Portfolio() {
                 <p>Netflix Clone Video Management System</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MySQL</p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://groomers.co.in/" target="_blank">
                   <img src={require('../images/groomers/groomers-1.png')}/>
                 </a>
@@ -171,7 +171,7 @@ function Portfolio() {
                 <p>E-commerce website for Indian business purposes</p>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="http://social-web.co.in/" target="_blank">
                   <img src={require('../images/social/social-1.png')}/>
                 </a>
@@ -186,7 +186,7 @@ function Portfolio() {
                 <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
                 <p>Tech Stack: Ejs, Express, Nodejs, MongoDB</p>
               </div> 
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://github.com/Karanjot1995/SEO_tool" target="_blank">
                   <img src={require('../images/seo-1.png')}/>
                 </a>
@@ -196,7 +196,7 @@ function Portfolio() {
                 <h3>SEO Automation Tool</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
                   <img src={require('../images/wmt/wmt-1.png')}/>
                 </a>
@@ -218,30 +218,30 @@ function Portfolio() {
           <div className="m-md-5 pd-t-5 slider-container">
             <h3 className="sub-heading">Work Projects</h3>
             <Slider {...settings}>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a href="https://collegedunia.com/" className="expanded" target="_blank"><img src={require('../images/collegedunia.png')}/></a>
                 <h3>collegedunia.com (Collegedunia web Pvt. Ltd.)</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
                 <p></p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a href="https://www.discernliving.com/" className="expanded" target="_blank"><img src={require('../images/discernliving.png')}/></a>
                 <h3>discernliving.com (Hogarth India)</h3>
                 <p>Tech Stack: Reactjs, Express, Nodejs (Full Stack)</p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
                   <img src={require('../images/wmt/wmt-1.png')}/>
                 </a>
                 <h3>Workplace Management Tool</h3>
                 <p>Tech Stack: MongoDb, Reactjs, Express, Nodejs (Full Stack)</p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a href="https://www.corporategurukul.com/" className="expanded" target="_blank"><img src={require('../images/cg.png')}/></a>
                 <h3>Corporate Gurukul (Hogarth India)</h3>
                 <p>Tech Stack: HTML, CSS, JQuery (Frontend)</p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a href="https://lentra.ai/" className="expanded" target="_blank"><img src={require('../images/lentra.png')}/></a>
                 <h3>Lentra.ai (Hogarth India)</h3>
                 <p>Tech Stack: HTML, CSS, Javascript (Frontend)</p>
@@ -254,37 +254,37 @@ function Portfolio() {
           <div className="m-md-5 pd-t-5 slider-container">
             <h3 className="sub-heading">Static Designs</h3>
             <Slider {...settings}>
-            <div className="text-center">
+            <div className="text-center slide-card">
                   <a className="expanded" href="https://karanjot1995.github.io/chatbot.html" target="_blank"><img  src={require('../images/images/chatbot.png')}/></a>
                   <h3>chatbot</h3>
                   <p></p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://karanjot1995.github.io/resume.html" target="_blank"><img src={require('../images/images/design_1.png')}/></a>
                 <h3>Resume-design</h3>
                 <p></p>
               </div> 
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://karanjot1995.github.io/terracotta.html" target="_blank"><img src={require('../images/images/design_2.png')}/></a>
                 <h3>Terracotta</h3>
                 <p></p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://karanjot1995.github.io/facebook.html" target="_blank"><img src={require('../images/images/design_3.png')}/></a>
                 <h3>Facebook-design</h3>
                 <p></p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://karanjot1995.github.io/golden.html" target="_blank"><img src={require('../images/images/design_4.png')}/></a>
                 <h3>Golden-design</h3>
                 <p></p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://karanjot1995.github.io/focus.html" target="_blank"><img src={require('../images/images/design_5.png')}/></a>
                 <h3>Focus-design</h3>
                 <p></p>
               </div>
-              <div className="text-center">
+              <div className="text-center slide-card">
                 <a className="expanded" href="https://karanjot1995.github.io/elle.html" target="_blank"><img src={require('../images/images/design_6.png')}/></a>
                 <h3>Elle_reve-design</h3>
                 <p></p>
