@@ -6,6 +6,7 @@ import './portfolio.scss';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import {FiMenu,FiDownload} from 'react-icons/fi'
 import { FaLaptopCode, FaLaptop, FaBriefcase, FaCertificate, FaCalendar} from "react-icons/fa";
+import { GiGraduateCap } from "react-icons/gi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -375,14 +376,38 @@ function Portfolio() {
         </section>
         
         <section className="section education light" id="education">
-          <h2 className="heading text-uppercase text-center">Education</h2>
-          <div className="company d-flex flex-column align-items-center text-left">
+          <div className="container-fluid text-center">
+            <h2 className="heading text-uppercase text-center"><GiGraduateCap/>Education</h2>
+          </div>
+          <ul class="cards">
+            <li class="cards__item">
+              <div class="card text-center">
+                {/* <div class="card__image card__image--fence"></div> */}
+                <div class="card__content">
+                <div class="degree">Master of Science in Computer Science</div>
+                  <p class="university">The University of Texas at Arlington</p>
+                  <p class="card__text">2021-2023</p>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+            <div class="card  text-center">
+                {/* <div class="card__image card__image--fence"></div> */}
+                <div class="card__content">
+                  <div class="degree">Bachelor of Technology in Electronics and Communication</div>
+                  <p class="university">Indraprastha University, Delhi</p>
+                  <p class="card__text">2013-2017</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          {/* <div className="company d-flex flex-column align-items-center text-left">
             <p>Currently I am working as a software engineer at Megger and finished my Master of Science in Computer Science from <b>The University of Texas at Arlington</b>. <b>GPA : 4.0</b></p><br/>
             <p>I graduated with a Bachelors in Technology degree in <b>Electronics and Communication Engineering</b> 
             from Guru Gobind Singh Indraprastha University <b>(IP University)</b> in 2017.</p><br/>
             <p>I finished 10th and 12th from <b>Cambridge School</b>, Srinivaspuri, <b>Delhi</b> in 2011 and 2013 respectively.</p><br/>
             <p>I developed an interest in <b>web development</b> and worked on various projects during my career, college and of my own.</p><br/>
-          </div>
+          </div> */}
         </section>
 
         <section className="section get-in-touch dark text-center" id="get-in-touch">
