@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './portfolio.scss';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import {FiMenu,FiDownload} from 'react-icons/fi'
-import { FaLaptopCode, FaLaptop, FaBriefcase} from "react-icons/fa";
+import { FaLaptopCode, FaLaptop, FaBriefcase, FaCertificate, FaCalendar} from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -117,7 +117,7 @@ function Portfolio() {
           </div>
           <div class="container">
             <div class="grid">
-              {skills.map(skill=>
+              {skills.skills.map(skill=>
                 <div class="skill-box">
                   <div class="skill-info d-flex flex-column align-items-center">
                     {/* <img src={skill.icon} alt={skill.name} /> */}
@@ -304,7 +304,38 @@ function Portfolio() {
             <h2 className="heading text-center text-uppercase"><FaBriefcase/> Work Experience</h2>
           </div>
 
-          <div className="company m-auto pb-4">
+          <div id="cd-timeline" class="cd-container">
+          {skills.experience.map((event,index)=>(
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture"></div>
+              <div class="cd-timeline-content">
+                <h2>{event.company}</h2>
+                <div class="timeline-content-info d-flex">
+                  <span class="timeline-content-info-title">
+                    <FaCertificate/>
+                    {event.title}
+                  </span>
+                  <span class="timeline-content-info-date">
+                    <FaCalendar/>
+                    {event.date}
+                  </span>
+                </div>
+                {event.description.map(des=>(
+                  <p>* {des}</p>
+                ))}
+                <ul class="content-skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Wordpress</li>
+                </ul>
+              </div>
+            </div> 
+          ))}
+          </div>
+
+          {/* <div className="company m-auto pb-4">
             <h3>Megger(Dallas, Tx): Software Engineer</h3>
             <h3>(July 2023 - Current)</h3>
             <p>- Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery, management and tracking using PHP Laravel, Vuejs, Javascript and MySql and deployed on AWS.</p>
@@ -341,7 +372,7 @@ function Portfolio() {
             <h3 className="">IIIT Delhi (Summer Internship)</h3>
             <p>Selected for the innovation internship program offered by IIIT Delhi Worked on the project ‘Lobye’ 
               connecting local businesses to consumers. Built the front end using HTML, CSS, jQuery and Bootstrap.</p>
-          </div>
+          </div> */}
 
         </section>
         
