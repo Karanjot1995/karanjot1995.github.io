@@ -301,7 +301,9 @@ function Portfolio() {
 
         <section className="section work-ex dark" id="work-ex">
           <div className="container-fluid text-center">
-            <h2 className="heading text-center text-uppercase"><FaBriefcase/> Work Experience</h2>
+            <h2 class="heading text-uppercase"><FaBriefcase/> Work <span>Experience</span></h2>
+
+            {/* <h2 className="heading text-center text-uppercase"><FaBriefcase/> Work Experience</h2> */}
           </div>
 
           <div id="cd-timeline" class="cd-container">

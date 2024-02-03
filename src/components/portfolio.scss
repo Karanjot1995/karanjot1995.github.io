@@ -408,17 +408,19 @@ section{
 // animation: blink .6s linear infinite alternate;
 // }
 
-
-
-.skills {
-	min-height: 90vh;
-  background: linear-gradient(to bottom, #05679e, #360891);
+.skills, .work-ex{
 	h2 {
 		color: #fff;
 	}
 	.heading span {
 		color: #f900ff;
 	}
+}
+
+.skills {
+	min-height: 90vh;
+  background: linear-gradient(to bottom, #05679e, #360891);
+
 	.grid {
 		grid-template-columns: repeat(6, 1fr);
 		display: grid;
