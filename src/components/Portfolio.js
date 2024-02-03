@@ -112,7 +112,7 @@ function Portfolio() {
           </div>
         </section>
 
-        <section class="skills" id="skills">
+        <section class="skills section" id="skills">
           <div className="container-fluid text-center">
             <h2 class="heading text-uppercase"><FaLaptopCode/> Skills and <span>Abilities</span></h2>
           </div>

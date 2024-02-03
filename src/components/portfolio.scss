@@ -312,7 +312,7 @@ section{
 		}
 	}
 
-	.light,.dark{
+	.section{
 		padding: 3rem 1rem;
 		p{
 			font-size: 15px;
@@ -466,11 +466,19 @@ section{
 		}
 	}
 }
+@media screen and (max-width: 1000px) {
 
+	.skills .grid {
+		grid-template-columns: repeat(3, 1fr);
+		display: grid;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+}
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
-    margin: 0;
+    // margin: 0;
   }
   .skills{
 		.container {
@@ -485,6 +493,7 @@ section{
 		}
 	} 
 }
+
 
 
 
