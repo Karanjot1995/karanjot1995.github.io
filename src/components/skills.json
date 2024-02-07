@@ -157,74 +157,113 @@
       "skills": ["HTML", "CSS", "Javascript","ReactJs","Redux", "NodeJs", "MySQL", "MongoDB", "Java", "AEM", "Google Cloud Platform", "REST API"]
     }
   ],
-  "projects": [
-    {
-      "title": "Netflix",
-      "description":"Netflix Clone Video Management System",
-      "tech_stack": "Reactjs, Express, Nodejs, MySQL",
-      "url":"https://netflix-49393.web.app/",
-      "github_url":"https://github.com/Karanjot1995/Netflix-VMS",
-      "thumbnail":"../images/netflix/1.png",
-      "images":[ 
-        "../images/netflix/1.png",  
-        "../images/netflix/2.png", 
-        "../images/netflix/3.png", 
-        "../images/netflix/4.png", 
-        "../images/netflix/5.png"
-      ]
-    },
-    {
-      "title": "groomers.co.in",
-      "description":"E-commerce website for Indian business purposes",
-      "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
-      "url":"https://groomers.co.in/",
-      "github_url":"https://github.com/Karanjot1995/groomers-server",
-      "thumbnail":"../images/groomers/groomers-1.png",
-      "images":[ 
-        "../images/groomers/groomers-1.png",  
-        "../images/groomers/groomers-2.png", 
-        "../images/groomers/groomers-3.png"
-      ]
-    },
-    {
-      "title": "social-web.co.in",
-      "description":"Post, like comment, chat, add Friend, signup, google Authentication etc.",
-      "tech_stack": "Ejs, Express, Nodejs, MongoDB",
-      "url":"https://netflix-49393.web.app/",
-      "github_url":"https://github.com/Karanjot1995/Social",
-      "thumbnail":"../images/social/social-1.png",
-      "images":[ 
-        "../images/social/social-1.png",  
-        "../images/social/social-2.png",  
-        "../images/social/social-3.png"
-      ]
-    },
-    {
-      "title": "Workplace Management Tool",
-      "description":"Post, like comment, chat, add Friend, signup, google Authentication etc.",
-      "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
-      "github_url":"https://github.com/Karanjot1995/Workplace-Management-Tool",
-      "url":"https://github.com/Karanjot1995/Workplace-Management-Tool",
-      "thumbnail":"../images/wmt/wmt-1.png",
-      "images":[ 
-        "../images/wmt/wmt-1.png",  
-        "../images/wmt/wmt-2.png",  
-        "../images/wmt/wmt-3.png"
-      ]
-    },
-    {
-      "title": "SEO Automation Tool",
-      "description":"An automation tool for SEO",
-      "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
-      "github_url":"https://github.com/Karanjot1995/SEO_tool",
-      "url":"https://github.com/Karanjot1995/SEO_tool",
-      "thumbnail":"../images/seo-1.png",
-      "images":[ 
-        "../images/seo-1.png",  
-        "../images/seo-2.png",  
-        "../images/seo-3.png"
-      ]
-    }
+  "projects": {
+    "all":[
+      {
+        "title": "Netflix",
+        "description":"Netflix Clone Video Management System",
+        "tech_stack": "Reactjs, Express, Nodejs, MySQL",
+        "url":"https://netflix-49393.web.app/",
+        "github_url":"https://github.com/Karanjot1995/Netflix-VMS",
+        "thumbnail":"../images/netflix/1.png",
+        "images":[ 
+          "../images/netflix/1.png",  
+          "../images/netflix/2.png", 
+          "../images/netflix/3.png", 
+          "../images/netflix/4.png", 
+          "../images/netflix/5.png"
+        ]
+      },
+      {
+        "title": "groomers.co.in",
+        "description":"E-commerce website for Indian business purposes",
+        "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
+        "url":"https://groomers.co.in/",
+        "github_url":"https://github.com/Karanjot1995/groomers-server",
+        "thumbnail":"../images/groomers/groomers-1.png",
+        "images":[ 
+          "../images/groomers/groomers-1.png",  
+          "../images/groomers/groomers-2.png", 
+          "../images/groomers/groomers-3.png"
+        ]
+      },
+      {
+        "title": "social-web.co.in",
+        "description":"Post, like comment, chat, add Friend, signup, google Authentication etc.",
+        "tech_stack": "Ejs, Express, Nodejs, MongoDB",
+        "url":"https://netflix-49393.web.app/",
+        "github_url":"https://github.com/Karanjot1995/Social",
+        "thumbnail":"../images/social/social-1.png",
+        "images":[ 
+          "../images/social/social-1.png",  
+          "../images/social/social-2.png",  
+          "../images/social/social-3.png"
+        ]
+      },
+      {
+        "title": "Workplace Management Tool",
+        "description":"Post, like comment, chat, add Friend, signup, google Authentication etc.",
+        "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
+        "github_url":"https://github.com/Karanjot1995/Workplace-Management-Tool",
+        "url":"https://github.com/Karanjot1995/Workplace-Management-Tool",
+        "thumbnail":"../images/wmt/wmt-1.png",
+        "images":[ 
+          "../images/wmt/wmt-1.png",  
+          "../images/wmt/wmt-2.png",  
+          "../images/wmt/wmt-3.png"
+        ]
+      },
+      {
+        "title": "SEO Automation Tool",
+        "description":"An automation tool for SEO",
+        "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
+        "github_url":"https://github.com/Karanjot1995/SEO_tool",
+        "url":"https://github.com/Karanjot1995/SEO_tool",
+        "thumbnail":"../images/seo-1.png",
+        "images":[ 
+          "../images/seo-1.png",  
+          "../images/seo-2.png",  
+          "../images/seo-3.png"
+        ]
+      }
+  
+    ],
+    "work":[
+      {
+        "title": "collegedunia.com",
+        "description":"Company: Collegedunia web Pvt. Ltd.",
+        "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
+        "url":"https://collegedunia.com/",
+        "thumbnail":"../images/collegedunia.png"
+      },
+      {
+        "title": "discernliving.com",
+        "description":"Company: Hogarth Worldwide",
+        "tech_stack": "Reactjs, Express, Nodejs (Full Stack)",
+        "url":"https://discernliving.com ",
+        "thumbnail":"../images/discernliving.png"
+      },
+      {
+        "title": "Workplace Management Tool",
+        "description":"Company: Hogarth Worldwide",
+        "tech_stack": "MongoDb, Reactjs, Express, Nodejs (Full Stack)",
+        "thumbnail":"../images/wmt/wmt-1.png"
+      },
+      {
+        "title": "Corporate Gurukul",
+        "description":"Company: Hogarth Worldwide",
+        "tech_stack": "HTML, CSS, JQuery (Frontend)",
+        "url":"https://www.corporategurukul.com/",
+        "thumbnail":"../images/cg.png"
+      },
+      {
+        "title": "Lentra.ai",
+        "description":"Company: Hogarth Worldwide",
+        "tech_stack": "HTML, CSS, Javascript (Frontend)",
+        "url":"https://lentra.ai/",
+        "thumbnail":"../images/lentra.png"
+      }
 
-  ]
+    ]
+  }
 }

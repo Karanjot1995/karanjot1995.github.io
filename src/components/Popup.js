@@ -54,15 +54,15 @@ const Popup = ({ onClose, project }) => {
               <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={img}/></a>
               )}
             </div>
-            <h3 className="d-flex justify-content-center">
+            <h3 className="d-flex justify-content-center mt-2">
               {project.url?
                 <a href={project.url} target="_blank">{project.title}</a>
                 :
                 <a>{project.title}</a>
               }
-              (<a className="github-link d-flex justify-content-center" href={project.github_url}>
+              ({project.github_url?<a className="github-link d-flex justify-content-center" href={project.github_url}>
                 <img className="github-logo" src={require('../images/github-logo.png')}/>github
-              </a>)
+              </a>:''})
             </h3>
             <p>{project.description}</p>
             <p>Tech Stack: {project.tech_stack}</p>

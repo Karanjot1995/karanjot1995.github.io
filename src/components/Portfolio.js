@@ -147,7 +147,7 @@ function Portfolio() {
             <h2 className="heading text-uppercase"><FaLaptop/> Projects</h2>
           </div>
           <div className='wrapper m-auto'>
-          {skills.projects.map(project=>(
+          {skills.projects.all.map(project=>(
              <div className="card">
               <img src={project.thumbnail}/>
               <div className="info">
@@ -156,53 +156,48 @@ function Portfolio() {
                 <p className="card-text">Tech Stack: {project.tech_stack}</p>
                 {project.images.length>1?<button className='view' onClick={()=>togglePopup(project)}>Expand</button>:''}
               </div>
+              <div className='title'>{project.title}</div>
             </div>
             ))}
           </div>
           {isOpen && (
             <Popup project={project} onClose={()=>togglePopup({})}/>
           )}
-          <div className="slider-container m-md-5">
+          {/* <div className="slider-container m-md-5">
             {isOpen && (
               <Popup project={project} onClose={()=>togglePopup({})}/>
             )}
+          </div> */}
+          <h3 className="sub-heading">Work Projects</h3>
+          <div className='wrapper m-auto'>
+            {skills.projects.work.map(project=>(
+              <div className="card">
+                <img src={project.thumbnail}/>
+                <div className="info">
+                  <h3 className="card-title">{project.title}</h3>
+                  <div className="extra-content">{project.description}</div>
+                  <p className="card-text">Tech Stack: {project.tech_stack}</p>
+                  {project.images && project.images.length?<button className='view' onClick={()=>togglePopup(project)}>Expand</button>:''}
+                </div>
+                <div className='title'>{project.title}</div>
+              </div>
+            ))}
           </div>
 
-
-          <div className="m-md-5 pd-t-5 slider-container">
-            <h3 className="sub-heading">Work Projects</h3>
-
-            <Slider {...settings}>
-              <div className="text-center slide-card">
-                <a href="https://collegedunia.com/" className="expanded" target="_blank"><img src={require('../images/collegedunia.png')}/></a>
-                <h3>collegedunia.com (Collegedunia web Pvt. Ltd.)</h3>
-                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
-                <p></p>
+          {/* <h3 className="sub-heading">Work Projects</h3>
+          <div className='wrapper m-auto'>
+            {skills.projects.work.map(project=>(
+              <div className="card">
+                <img src={project.thumbnail}/>
+                <div className="info">
+                  <h3 className="card-title">{project.title}</h3>
+                  <div className="extra-content">{project.description}</div>
+                  <p className="card-text">Tech Stack: {project.tech_stack}</p>
+                  {project.images && project.images.length?<button className='view' onClick={()=>togglePopup(project)}>Expand</button>:''}
+                </div>
               </div>
-              <div className="text-center slide-card">
-                <a href="https://www.discernliving.com/" className="expanded" target="_blank"><img src={require('../images/discernliving.png')}/></a>
-                <h3>discernliving.com (Hogarth India)</h3>
-                <p>Tech Stack: Reactjs, Express, Nodejs (Full Stack)</p>
-              </div>
-              <div className="text-center slide-card">
-                <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
-                  <img src={require('../images/wmt/wmt-1.png')}/>
-                </a>
-                <h3>Workplace Management Tool</h3>
-                <p>Tech Stack: MongoDb, Reactjs, Express, Nodejs (Full Stack)</p>
-              </div>
-              <div className="text-center slide-card">
-                <a href="https://www.corporategurukul.com/" className="expanded" target="_blank"><img src={require('../images/cg.png')}/></a>
-                <h3>Corporate Gurukul (Hogarth India)</h3>
-                <p>Tech Stack: HTML, CSS, JQuery (Frontend)</p>
-              </div>
-              <div className="text-center slide-card">
-                <a href="https://lentra.ai/" className="expanded" target="_blank"><img src={require('../images/lentra.png')}/></a>
-                <h3>Lentra.ai (Hogarth India)</h3>
-                <p>Tech Stack: HTML, CSS, Javascript (Frontend)</p>
-              </div>
-            </Slider>
-          </div>
+            ))}
+          </div> */}
         
 
 
