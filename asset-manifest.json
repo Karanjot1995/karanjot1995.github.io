@@ -1,13 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac10a9a7.css",
-    "main.js": "/static/js/main.12fb218c.js",
+    "main.css": "/static/css/main.551982e2.css",
+    "main.js": "/static/js/main.561721d7.js",
     "static/js/787.369e37a1.chunk.js": "/static/js/787.369e37a1.chunk.js",
-    "static/media/lentra.png": "/static/media/lentra.642ff932674b98de698e.png",
-    "static/media/discernliving.png": "/static/media/discernliving.60e301c1d2de8079e492.png",
-    "static/media/collegedunia.png": "/static/media/collegedunia.0449f08f5fcd6f73751a.png",
-    "static/media/cg.png": "/static/media/cg.35d5ea6b6bc86a694681.png",
-    "static/media/wmt-1.png": "/static/media/wmt-1.67e7074c91b42dea57c9.png",
     "static/media/design_2.png": "/static/media/design_2.baf6ce3f9240c551c088.png",
     "static/media/design_4.png": "/static/media/design_4.bd0c841569d6b5094e68.png",
     "static/media/design_1.png": "/static/media/design_1.78ca2c3425f2f41c09a1.png",
@@ -24,12 +19,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ac10a9a7.css.map": "/static/css/main.ac10a9a7.css.map",
-    "main.12fb218c.js.map": "/static/js/main.12fb218c.js.map",
+    "main.551982e2.css.map": "/static/css/main.551982e2.css.map",
+    "main.561721d7.js.map": "/static/js/main.561721d7.js.map",
     "787.369e37a1.chunk.js.map": "/static/js/787.369e37a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac10a9a7.css",
-    "static/js/main.12fb218c.js"
+    "static/css/main.551982e2.css",
+    "static/js/main.561721d7.js"
   ]
 }
