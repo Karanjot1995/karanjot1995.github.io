@@ -263,9 +263,9 @@ function Portfolio() {
               <div class="cd-timeline-img cd-picture"></div>
               <div class="cd-timeline-content">
                 <h2>{event.company}</h2>
-                <div class="timeline-content-info d-flex">
-                  <span class="timeline-content-info-title">
-                    <FaCertificate/>
+                <div class="timeline-content-info d-md-flex">
+                  <span class="timeline-content-info-title d-flex">
+                    <span className='center-dot'>&#8226;</span>
                     {event.title}
                   </span>
                   <span class="timeline-content-info-date">
@@ -274,7 +274,7 @@ function Portfolio() {
                   </span>
                 </div>
                 {event.description.map(des=>(
-                  <p>* {des}</p>
+                  <p>&#8226; {des}</p>
                 ))}
                 <ul class="content-skills">
                   {event.skills.map(skill=>(<li>{skill}</li>))}

@@ -168,6 +168,7 @@ section{
 		font-family: sans-serif;
 		.slide-card{
 			padding:20px;
+			border-radius: 5px;
 		}
 		h3{
 			padding:10px 0 0 0;
@@ -179,6 +180,7 @@ section{
 		img{
 			width:100%;
 			padding: 5px;
+			border-radius: 15px;
 			height:auto;
 			margin:auto;
 		}
@@ -620,12 +622,12 @@ border-right: 7px solid rgba(0,0,22,.9);
 	.education , .work-ex{
 		// padding:5% 10%;
 		h3{
-			max-width: 90%;
+			// max-width: 90%;
 			font-size: 18px;
 		}
 		p{
-			max-width: 90%;
-			font-size: 15px;
+			// max-width: 90%;
+			font-size: 13px;
 		}
 	}
 	.get-in-touch{
@@ -973,7 +975,7 @@ border-right: 7px solid rgba(0,0,22,.9);
 }
 
 
-
-
-
-
+.center-dot{
+	font-size: 20px;
+	margin-right: 2px;
+}
