@@ -146,15 +146,15 @@ function Portfolio() {
           <div className="container-fluid text-center">
             <h2 className="heading text-uppercase"><FaLaptop/> Projects</h2>
           </div>
-          <div className='wrapper m-auto'>
+          <div className='wrapper'>
           {skills.projects.map(project=>(
              <div className="card">
-              <img src={project.thumbnail}/>
+              <img src={require('../images/netflix/1.png')}/>
               <div className="info">
                 <h3 className="card-title">{project.title}</h3>
                 <div className="extra-content">{project.description}</div>
                 <p className="card-text">Tech Stack: {project.tech_stack}</p>
-                {project.images.length>1?<button className='view' onClick={()=>togglePopup(project)}>Expand</button>:''}
+                <button className='view' onClick={()=>togglePopup(project)}>Expand</button>
               </div>
             </div>
             ))}
@@ -166,6 +166,75 @@ function Portfolio() {
             {isOpen && (
               <Popup project={project} onClose={()=>togglePopup({})}/>
             )}
+            
+            <Slider {...settings}>
+              <div className="text-center slide-card" style={{'padding':'20px'}}>
+                <a className="expanded" href="https://netflix-49393.web.app/" target="_blank">
+                  <img src={require('../images/netflix/1.png')}/>
+                </a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/3.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/4.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/netflix/5.png')}/></a>
+                <h3 className="d-flex justify-content-center">
+                  <a href='https://netflix-49393.web.app/'>Netflix</a>
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Netflix-VMS"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
+                </h3>
+                <p>Netflix Clone Video Management System</p>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MySQL</p>
+              </div>
+              
+              <div className="text-center slide-card">
+                <a className="expanded" href="https://groomers.co.in/" target="_blank">
+                  <img src={require('../images/groomers/groomers-1.png')}/>
+                </a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/groomers/groomers-3.png')}/></a>
+                <h3 className="d-flex justify-content-center">
+                  <a href="https://groomers.co.in/">groomers.co.in</a>&nbsp;                  
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/groomers-server"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
+                </h3>
+                
+                <p>E-commerce website for Indian business purposes</p>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
+              </div>
+              <div className="text-center slide-card">
+                <a className="expanded" href="http://social-web.co.in/" target="_blank">
+                  <img src={require('../images/social/social-1.png')}/>
+                </a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/social/social-3.png')}/></a>
+                <h3 className="d-flex justify-content-center">
+                  <a href="https://groomers.co.in/">social-web.co.in</a>&nbsp;                  
+                  (<a className="github-link d-flex justify-content-center" href="https://github.com/Karanjot1995/Social"><img className="github-logo" src={require('../images/github-logo.png')}/>github</a>)
+                </h3>                
+                <p>Post, like comment, chat, add Friend, signup, google Authentication etc.</p>
+                <p>Tech Stack: Ejs, Express, Nodejs, MongoDB</p>
+              </div> 
+              <div className="text-center slide-card">
+                <a className="expanded" href="https://github.com/Karanjot1995/SEO_tool" target="_blank">
+                  <img src={require('../images/seo-1.png')}/>
+                </a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/seo-3.png')}/></a>
+                <h3>SEO Automation Tool</h3>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
+              </div>
+              <div className="text-center slide-card">
+                <a className="expanded" href="https://github.com/Karanjot1995/Workplace-Management-Tool" target="_blank">
+                  <img src={require('../images/wmt/wmt-1.png')}/>
+                </a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-1.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-2.png')}/></a>
+                <a className="thumbnail" onClick={(e)=>changeExpanded(e)}><img src={require('../images/wmt/wmt-3.png')}/></a>
+                <h3>Workplace Management Tool</h3>
+                <p>Tech Stack: Reactjs, Express, Nodejs, MongoDB</p>
+              </div>
+            </Slider>
           </div>
 
 
