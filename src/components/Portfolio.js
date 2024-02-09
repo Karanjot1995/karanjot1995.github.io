@@ -108,7 +108,7 @@ function Portfolio() {
             </div>
 
             <div className="text-center cover-right">
-              <img src={require('../images/profile.jpg')} className="profile" height="200" width="200"/>
+              <img src={require('../images/profile-2.JPG')} className="profile" height="200" width="200"/>
               <h2 className="name fs-40"><b>Karanjot Singh</b></h2>
               <h4 className="city">Arlington, Texas</h4>
               <a className="resume" href="/resume.pdf" target="_blank"><h4><FiDownload/> Download Resume</h4></a>
