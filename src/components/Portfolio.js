@@ -114,9 +114,12 @@ function Portfolio() {
               <a className="resume" href="/resume.pdf" target="_blank"><h4><FiDownload/> Download Resume</h4></a>
               <div className="social-links">
                 {/* <a href="#"><img src={require('../images/images/facebook.png')}/></a> */}
-                <a href="https://twitter.com/sleepy_singh" target="_blank"><img src={require('../images/images/twitter.png')}/></a>
-                <a href="https://www.linkedin.com/in/karanjotsingh1995/" target="_blank"><img src={require('../images/images/Linkedin.png')}/></a>
+                <a href="https://www.linkedin.com/in/karanjotsingh1995/" target="_blank"><img src={require('../images/images/linkedin1.png')}/></a>
+                <a href="https://leetcode.com/Karanjot1995/" title='leetcode' target="_blank">
+                  <img src={require('../images/images/leetcode.png')} className='leetcode'/>
+                </a>
                 <a href="https://github.com/Karanjot1995" target="_blank"><img src={require('../images/images/github.png')}/></a>
+                <a href="https://twitter.com/sleepy_singh" target="_blank"><img src={require('../images/images/twitter.png')}/></a>
                 <a href="#"><img src={require('../images/images/quora.png')}/></a>
               </div>
             </div>
