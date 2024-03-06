@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.557142ad.css",
-    "main.js": "/static/js/main.dd808d80.js",
+    "main.css": "/static/css/main.46777b3a.css",
+    "main.js": "/static/js/main.6689c1a0.js",
     "static/js/787.369e37a1.chunk.js": "/static/js/787.369e37a1.chunk.js",
     "static/media/profile-2.JPG": "/static/media/profile-2.72319fdaa6ff79eb8953.JPG",
     "static/media/design_2.png": "/static/media/design_2.baf6ce3f9240c551c088.png",
@@ -10,6 +10,7 @@
     "static/media/design_6.png": "/static/media/design_6.128ebb4504024a3f7dcf.png",
     "static/media/design_5.png": "/static/media/design_5.edd376f70730c5e4fa50.png",
     "static/media/design_3.png": "/static/media/design_3.a7e869ca55c366e48c34.png",
+    "static/media/leetcode.png": "/static/media/leetcode.c78fc082f2b4c496259f.png",
     "static/media/cover1.jpeg": "/static/media/cover1.05fd10b94215a9074e02.jpeg",
     "static/media/chatbot.png": "/static/media/chatbot.08ec939e93e202aaf85c.png",
     "static/media/github.png": "/static/media/github.987334e9f782cc505f25.png",
@@ -19,12 +20,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.557142ad.css.map": "/static/css/main.557142ad.css.map",
-    "main.dd808d80.js.map": "/static/js/main.dd808d80.js.map",
+    "main.46777b3a.css.map": "/static/css/main.46777b3a.css.map",
+    "main.6689c1a0.js.map": "/static/js/main.6689c1a0.js.map",
     "787.369e37a1.chunk.js.map": "/static/js/787.369e37a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.557142ad.css",
-    "static/js/main.dd808d80.js"
+    "static/css/main.46777b3a.css",
+    "static/js/main.6689c1a0.js"
   ]
 }
