@@ -971,6 +971,11 @@ border-right: 7px solid rgba(0,0,22,.9);
 			height:50px;
 		}
 	}
+	.projects{
+		.card:hover .info{
+			transform: none;
+		}
+	}
 
 }
 
