@@ -161,7 +161,7 @@
     "all":[
       {
         "title": "DSA Prep",
-        "description":"Data Structures and Algorithms preperations app with file storage and code editor",
+        "description":"Data Structures and Algorithms preperations app with file storage and code editor with ability to import questions from other users",
         "tech_stack": "Reactjs, Express, Nodejs, MySQL",
         "url":"https://dsa-progress-tracker.vercel.app/",
         "github_url":"https://github.com/Karanjot1995/dsa-progress-tracker",
