@@ -160,6 +160,21 @@
   "projects": {
     "all":[
       {
+        "title": "DSA Prep",
+        "description":"Data Structures and Algorithms preperations app with file storage and code editor",
+        "tech_stack": "Reactjs, Express, Nodejs, MySQL",
+        "url":"https://dsa-progress-tracker.vercel.app/",
+        "github_url":"https://github.com/Karanjot1995/dsa-progress-tracker",
+        "thumbnail":"../images/dsa/1.png",
+        "images":[ 
+          "../images/dsa/1.png",  
+          "../images/dsa/2.png", 
+          "../images/dsa/3.png", 
+          "../images/dsa/4.png", 
+          "../images/dsa/5.png"
+        ]
+      },
+      {
         "title": "Netflix",
         "description":"Netflix Clone Video Management System",
         "tech_stack": "Reactjs, Express, Nodejs, MySQL",
