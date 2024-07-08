@@ -286,46 +286,6 @@ function Portfolio() {
             </div> 
           ))}
           </div>
-
-          {/* <div className="company m-auto pb-4">
-            <h3>Megger(Dallas, Tx): Software Engineer</h3>
-            <h3>(July 2023 - Current)</h3>
-            <p>- Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery, management and tracking using PHP Laravel, Vuejs, Javascript and MySql and deployed on AWS.</p>
-            <p>- Singlehandedly took care of all the processes from design and development to testing.</p>
-            <p>- Building the rental platform using Vuejs and built RESTful APIs using PHP Laravel to serve the data stored in MYSQL db. This is helping the company cut the cost for paid platforms by almost 75%.</p>
-          </div>
-
-          <div className="company m-auto pb-4">
-            <h3>Megger(Dallas, Tx): Software Engineer Intern</h3>
-            <h3>(June 2022 - May 2023)</h3>
-            <p>- Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery and management using PHP Laravel, Vuejs, Javascript and MySql.</p>
-            <p>- Validated, tested and wrote code to maximize the performance and deliver the best in a short period of time.</p>
-          </div>
-
-          <div className="company m-auto pb-4">
-            <h3>Hogarth Worldwide, India - Software Engineer</h3>
-            <h3>(July 2018 - March 2021)</h3>
-            <p>- Led a team for 4 for Discernliving.com website using technologies like Reactjs (javascript framework), Nodejs, Expressjs, HTML and CSS.</p>
-            <p>- Developed and Maintained BMW India website as a team lead on AEM Platform and used HTML, CSS and javascript for development. Increased user engagement by 15% through the implementation of responsive design and interactive user interfaces.</p>
-            <p>- Developed a Workplace Management Tool for the company for timesheet management, HR management and employee management and cut down employee management time by a significant 60% using Reactjs javascript framework, Redux, Nodejs, Express and Mongodb.</p>
-            <p>- Achieved a 20% improvement in website loading speed by optimizing frontend code and implementing caching strategies.</p>
-            <p>- Automated the SEO process by creating an SEO Tool using Reactjs javascript framework, Redux and Nodejs.</p>
-          </div>
-
-          <div className="company pb-4">
-            <h3>Collegedunia Web Pvt Ltd - Software Engineer</h3>
-            <h3>(March 2021 - August 2021)</h3>
-            <p>- Worked with collegedunia.com from March 2021 to August 2021 as a senior software engineer on their main education portal(collegedunia.com) and led a team of 10 using Nextjs, Reactjs, Nodejs, HTML and CSS.</p>
-            <p>- Defined and conducted the project on various stages including research, conceptualization, testing and implementation and Created many components like dynamic forms, search etc. and APIs.</p>
-            <p>- Achieved a 15% reduction in software development cycle time by optimizing the deployment pipeline and implementing automated testing.</p>
-          </div>
-
-          <div className="company">
-            <h3 className="">IIIT Delhi (Summer Internship)</h3>
-            <p>Selected for the innovation internship program offered by IIIT Delhi Worked on the project ‘Lobye’ 
-              connecting local businesses to consumers. Built the front end using HTML, CSS, jQuery and Bootstrap.</p>
-          </div> */}
-
         </section>
         
         <section className="section education light" id="education">
