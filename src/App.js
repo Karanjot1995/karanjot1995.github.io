@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Portfolio from './components/Portfolio';
+import { Navbar, About, Work, Projects, Contact, Footer, Skills } from './components';
 
 function App() {
   return (
     <div className="App">
-     <Portfolio/>
+      <Navbar />
+      <About />
+      <Work />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }

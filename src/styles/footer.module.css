@@ -1,0 +1,11 @@
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-top: 1px solid var(--timeline-item-after-color);
+}
+.footerLinks a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+  font-size: 12px;
+}

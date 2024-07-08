@@ -61,7 +61,7 @@ const Popup = ({ onClose, project }) => {
                 <a>{project.title}</a>
               }
               ({project.github_url?<a className="github-link d-flex justify-content-center" href={project.github_url}>
-                <img className="github-logo" src={require('../images/github-logo.png')}/>github
+                <img className="github-logo" src={require('../images/images/github-logo.png')}/>github
               </a>:''})
             </h3>
             <p>{project.description}</p>

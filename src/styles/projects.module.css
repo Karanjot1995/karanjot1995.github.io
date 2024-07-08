@@ -1,0 +1,59 @@
+.projects {
+  padding: 0 70px;
+  margin-top: 70px;
+}
+.projectsList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.projectsList .projectItem {
+  flex-basis: 33%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+.projectsList .projectItem .projectImage {
+  border-radius: 10px;
+  border: 2px solid var(--timeline-item-after-color);
+  width: 100%;
+  max-height: 200px;
+}
+.projectTitle {
+  color: var(--text-color-secondary);
+  margin: 0;
+  margin-top: 10px;
+}
+.projectTitle a {
+  position: relative;
+}
+.projectTitle a img {
+  position: absolute;
+  height: 25px;
+  left: 5px;
+}
+.projectDescription {
+  color: var(--text-color-gray);
+  font-size: 14px;
+}
+.projectRole {
+  font-size: 11px;
+  color: var(--text-color-gray);
+  position: relative;
+  top: -5px;
+}
+@media only screen and (max-width: 430px) {
+  .projects {
+    padding: 0 30px;
+    margin-top: 50px;
+  }
+  .projectsList {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.navbar {
+  color: var(--text-color-primary);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: 400;
+}
+.navLinksGroup {
+  margin-right: 74px;
+  display: flex;
+}
+.navLinksGroup a {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.55;
+}
+.logoShort {
+  float: left;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #007ced;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  margin-right: 8px;
+  margin-top: 4px;
+}
+.logoText {
+  float: left;
+  line-height: 50px;
+  font-size: 20px;
+  color: var(--btn-primary-color);
+  font-weight: 600;
+}
+.logoText span {
+  font-weight: 400;
+}
+.navLinksGroup a::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  bottom: -6px;
+  background: var(--text-color-secondary);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navLinksGroup a.active {
+  opacity: 1;
+}
+.navLinksGroup a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media only screen and (max-width: 430px) {
+  .navLinksGroup {
+    display: none;
+  }
+}
