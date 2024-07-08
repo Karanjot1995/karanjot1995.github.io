@@ -8,6 +8,7 @@ body[data-theme='light'] {
   --primary: rgb(0, 124, 237);
   --about-photo: #fff;
   --about-photo-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
+  --border-color-primary: #007ced;
   --text-color-gray: #666;
   --btn-background: #fff;
   --btn-box-shadow: 0 10px 10px -8px rgb(0 0 0 / 22%);
@@ -29,6 +30,7 @@ body[data-theme='dark'] {
   --about-photo-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);
   --text-color-gray: #d5d5d5;
   --btn-background: #333;
+  --border-color-primary: #333;
   --btn-box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
   --btn-primary-color: #fff;
   --btn-secondary-color: #fff;
