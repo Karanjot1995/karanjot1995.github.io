@@ -327,7 +327,7 @@ function Portfolio() {
           <h3>Wanna get in touch or talk about a project?</h3>
           <p>
           Feel free to contact me via email at <br/>
-          karan.nanda97@gmail.com<br/>
+          karan.nanda97@gmail.com or 682-313-4726<br/>
           {/* or contact me through the form below! */}
           </p>
 
