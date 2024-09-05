@@ -36,7 +36,7 @@ const work = {
       company: 'Megger, Dallas',
       title: 'Software Developer Intern',
       description:
-        'Solely developed, designed and tested Megger web portal(demoassets.com) for handling equipment delivery and management. Validated, tested and wrote code to maximize the performance following the Software Development Life Cycle (SDLC enhancing user experience and saving operational costs by 50% and time by 25%. Tech Stack: PHP Laravel, Vuejs, JavaScript and MySQL',
+        'Solely developed, designed and tested Megger web portal(demoassets.com) for handling equipment delivery and management. Validated, tested and wrote code to maximize the performance following the Software Development Life Cycle (SDLC enhancing user experience and saving operational costs by 50% and time by 25%. Tech Stack: Java, Vuejs, JavaScript and MySQL',
     },
     {
       timePeriod: '2021 - 2021',
