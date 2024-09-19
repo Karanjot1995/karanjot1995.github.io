@@ -29,14 +29,14 @@ const work = {
       company: 'Megger, Dallas',
       title: 'Software Developer',
       description:
-        'Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery, management and tracking and the rental platform utilizing Vuejs for frontend development and built RESTful APIs using PHP Laravel and MYSQL.',
+        'Functioned and designed Megger web portal(demoassets.com) for handling equipment delivery, management and tracking and the rental platform utilizing Vuejs for frontend development and built RESTful APIs using Java Spring Boot and MYSQL.',
     },
     {
       timePeriod: '2022 - 2023',
       company: 'Megger, Dallas',
       title: 'Software Developer Intern',
       description:
-        'Rolled out a fully functional Megger online interface for equipment administration and tracking incorporating distributed systems and reducing manual entry time by 50%. Validated, tested, and wrote code following the Software Development Life Cycle (SDLC) to enhance performance, improve user experience, and save operational costs by 60% while reducing time by 25%.Tech Stack: Java, Vuejs, JavaScript and MySQL',
+        'Rolled out a fully functional Megger online interface for equipment administration and tracking incorporating distributed systems and reducing manual entry time by 50%. Validated, tested, and wrote code following the Software Development Life Cycle (SDLC) to enhance performance, improve user experience, and save operational costs by 60% while reducing time by 25%.Tech Stack: Java, Spring Boot, Vuejs, JavaScript and MySQL',
     },
     {
       timePeriod: '2021 - 2021',
