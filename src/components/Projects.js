@@ -82,20 +82,6 @@ function Projects() {
       <div className="projects text-center" ref={myRef} id="projects-work">
          
           <div className='wrapper m-auto'>
-          {projects.all.map(project=>(
-             <div className="card">
-              <img src={project.thumbnail}/>
-              <div className="info">
-                <h3 className="card-title">{project.title}</h3>
-                <div className="extra-content">{project.description}</div>
-                <p className="card-text">Tech Stack: {project.tech_stack}</p>
-                {project.images.length>1?<button className='view' onClick={()=>togglePopup(project)}>Expand</button>:''}
-              </div>
-              <div className='title'>{project.title}</div>
-            </div>
-            ))}
-          </div>
-
           {isOpen && (
             <Popup project={project} onClose={()=>togglePopup({})}/>
           )}
@@ -112,6 +98,20 @@ function Projects() {
                 </div>
                 <div className='title'>{project.title}</div>
               </div>
+            ))}
+          </div>
+          
+          {projects.all.map(project=>(
+             <div className="card">
+              <img src={project.thumbnail}/>
+              <div className="info">
+                <h3 className="card-title">{project.title}</h3>
+                <div className="extra-content">{project.description}</div>
+                <p className="card-text">Tech Stack: {project.tech_stack}</p>
+                {project.images.length>1?<button className='view' onClick={()=>togglePopup(project)}>Expand</button>:''}
+              </div>
+              <div className='title'>{project.title}</div>
+            </div>
             ))}
           </div>
         
