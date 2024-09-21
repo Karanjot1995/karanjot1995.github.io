@@ -81,7 +81,6 @@ function Projects() {
       
       <div className="projects text-center" ref={myRef} id="projects-work">
          
-          <div className='wrapper m-auto'>
           {isOpen && (
             <Popup project={project} onClose={()=>togglePopup({})}/>
           )}
@@ -101,6 +100,8 @@ function Projects() {
             ))}
           </div>
           
+          <div className='wrapper m-auto'>
+
           {projects.all.map(project=>(
              <div className="card">
               <img src={project.thumbnail}/>
