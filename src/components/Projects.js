@@ -77,7 +77,6 @@ function Projects() {
   }
   return (
     <div className={styles.projects} id="projects">
-      <h2 className="block-header">Projects</h2>
       
       <div className="projects text-center" ref={myRef} id="projects-work">
          
@@ -99,9 +98,10 @@ function Projects() {
               </div>
             ))}
           </div>
-          
-          <div className='wrapper m-auto'>
 
+          
+          <h2 className="block-header">Projects</h2>
+          <div className='wrapper m-auto'>
           {projects.all.map(project=>(
              <div className="card">
               <img src={project.thumbnail}/>
