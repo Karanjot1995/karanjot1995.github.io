@@ -147,7 +147,7 @@ const projects = {
     {
       "title": "Workplace Management Tool",
       "description":"Post, like comment, chat, add Friend, signup, google Authentication etc.",
-      "tech_stack": "Reactjs, Express, Nodejs, MongoDB",
+      "tech_stack": "Reactjs, Java, Spring Boot, MongoDB",
       "github_url":"https://github.com/Karanjot1995/Workplace-Management-Tool",
       "url":"https://github.com/Karanjot1995/Workplace-Management-Tool",
       "thumbnail":"../images/images/wmt/wmt-1.png",
@@ -181,16 +181,23 @@ const projects = {
       "thumbnail":"../images/images/collegedunia.png"
     },
     {
+      "title": "BMW.in",
+      "description":"Company: Hogarth Worldwide",
+      "tech_stack": "HTML, CSS, Java, Spring Boot (Full Stack), AEM",
+      "url":"https://discernliving.com ",
+      "thumbnail":"../images/images/discernliving.png"
+    },
+    {
       "title": "discernliving.com",
       "description":"Company: Hogarth Worldwide",
-      "tech_stack": "Reactjs, Express, Nodejs (Full Stack)",
+      "tech_stack": "Reactjs, Nodejs, Java, Spring Boot (Full Stack)",
       "url":"https://discernliving.com ",
       "thumbnail":"../images/images/discernliving.png"
     },
     {
       "title": "Workplace Management Tool",
       "description":"Company: Hogarth Worldwide",
-      "tech_stack": "MongoDb, Reactjs, Express, Nodejs (Full Stack)",
+      "tech_stack": "MongoDb, Reactjs, Java, Spring Boot (Full Stack)",
       "thumbnail":"../images/images/wmt/wmt-1.png"
     },
     {
@@ -212,6 +219,10 @@ const projects = {
 }
 
 const skills = [
+  {
+    "name": "Java",
+    "icon": "../images/logos/java.png"
+  },
   {
     "name": "ReactJS",
     "icon": "../images/logos/react.png"
@@ -263,10 +274,6 @@ const skills = [
   {
       "name": "JavaScript",
       "icon": "../images/logos/javascript.png"
-  },
-  {
-      "name": "Java",
-      "icon": "../images/logos/java.png"
   },
   {
       "name": "PHP",
