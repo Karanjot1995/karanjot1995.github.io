@@ -185,7 +185,7 @@ const projects = {
       "description":"Company: Hogarth Worldwide",
       "tech_stack": "HTML, CSS, Java, Spring Boot (Full Stack), AEM",
       "url":"https://discernliving.com ",
-      "thumbnail":"../images/images/discernliving.png"
+      "thumbnail":"../images/images/BMW_1.png"
     },
     {
       "title": "discernliving.com",
