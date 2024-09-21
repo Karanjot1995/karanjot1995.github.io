@@ -58,7 +58,7 @@ const work = {
 const about = {
   title: 'Karanjot Singh',
   description:
-    "👋 there! I love to build cool stuff. I design and build Web and Mobile Applications.. \n\n Feel free to contact me if you've any questions!",
+    "👋 there! I love to build cool stuff. I design and build Web and Mobile Applications (I love React and Java). \n\n Feel free to contact me if you've any questions!",
   social: [
     {
       name: 'Linkedin',
