@@ -25,7 +25,14 @@ const work = {
   ],
   experience: [
     {
-      timePeriod: '2023 - Current',
+      timePeriod: '2024 - Current',
+      company: 'Goldman Sachs',
+      title: 'Software Engineer',
+      description:
+        'Engineered an internal dashboard for Voice Data Analytics leveraging Snowflake, MySQL, and Java improving data processing efficiency by 35%. Designed and implemented pipelines to ingest voice data from multiple devices into a data warehouse for the analytics dashboard, increasing data accessibility for stakeholders by 50%, enabling faster and more informed decision-making.',
+      },
+    {
+      timePeriod: '2023 - 2024',
       company: 'Megger, Dallas',
       title: 'Software Developer',
       description:
