@@ -27,7 +27,7 @@ function Contact() {
             style={{ fontSize: 35, color: 'var(--primary)' }}
           ></div>
           <div className={styles.info}>
-            <h4>karanjot.s1195@gmail.com</h4>
+            <h4>karan.nanda97@gmail.com</h4>
             <p>
               Feel free to email me with anything you'd want to chat about :)
             </p>
