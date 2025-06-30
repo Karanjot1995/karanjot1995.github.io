@@ -29,7 +29,7 @@ const work = {
       company: 'Goldman Sachs',
       title: 'Software Engineer',
       description:
-        'Engineered an internal dashboard for Voice Data Analytics leveraging Snowflake, MySQL, and Java improving data processing efficiency by 35%. Designed and implemented pipelines to ingest voice data from multiple devices into a data warehouse for the analytics dashboard, increasing data accessibility for stakeholders by 50%, enabling faster and more informed decision-making.',
+      'Implemented and optimized an auto log-off feature for an internal tool to bolster security and support advanced people search by city and organization complemented with serverless Go Lambdas on AWS to handle backend logic. Led the migration from cookie-based authentication to OAuth across all internal applications, improving security, scalability, and cross-service compatibility in a microservices architecture.',
       },
     {
       timePeriod: '2023 - 2024',
